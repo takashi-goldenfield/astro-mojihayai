@@ -94,8 +94,8 @@ main .gsc-main {
   gap: 1rem;
 }
 main .gsc-comment-box {
-  border-radius: 0.75rem!important;
-  border-width: 1px!important;
+  border-radius: 0.75rem !important;
+  border-width: 1px !important;
 }
 main .gsc-comment-box-tabs {
   border-start-end-radius: 0.75rem;
@@ -103,17 +103,17 @@ main .gsc-comment-box-tabs {
 }
 main .gsc-comment-box-tabs button {
   border-radius: 0.5rem 0.5rem 0 0;
-  border-start-end-radius: 0.5rem!important;
-  border-start-start-radius: 0.5rem!important;
-  padding-bottom: 0.35rem!important;
-  padding-top: 0.35rem!important;
-  padding-inline-end: 0.65rem!important;
-  padding-inline-start: 0.65rem!important;
+  border-start-end-radius: 0.5rem !important;
+  border-start-start-radius: 0.5rem !important;
+  padding-bottom: 0.35rem !important;
+  padding-top: 0.35rem !important;
+  padding-inline-end: 0.65rem !important;
+  padding-inline-start: 0.65rem !important;
 }
 main .gsc-comment .gsc-comment-box-tabs {
   border-radius: 0.75rem 0.75rem 0 0;
 }
-main .gsc-comment > div{
+main .gsc-comment > div {
   background: none;
   border: none;
   display: flex;

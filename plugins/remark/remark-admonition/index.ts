@@ -1,9 +1,9 @@
-import type { RemarkPlugin } from '@astrojs/markdown-remark';
+import type { RemarkPlugin } from "@astrojs/markdown-remark";
 
-import { syntax } from './micromark-extension-admonition';
-import { fromMarkdown } from './mdast-util-admonition';
+import { syntax } from "./micromark-extension-admonition";
+import { fromMarkdown } from "./mdast-util-admonition";
 
-const remarkAdmonition: RemarkPlugin<[]> = function(this: any) {
+const remarkAdmonition: RemarkPlugin<[]> = function (this: any) {
   const data = this.data();
 
   function add(key: string, value: any) {
@@ -14,8 +14,8 @@ const remarkAdmonition: RemarkPlugin<[]> = function(this: any) {
     }
   }
 
-  add('micromarkExtensions', syntax());
-  add('fromMarkdownExtensions', fromMarkdown());
-}
+  add("micromarkExtensions", syntax());
+  add("fromMarkdownExtensions", fromMarkdown());
+};
 
 export default remarkAdmonition;

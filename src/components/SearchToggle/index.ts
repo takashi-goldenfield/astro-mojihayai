@@ -1,2 +1,2 @@
-export { default } from './SearchToggle'
-export * from './SearchToggle'
+export { default } from "./SearchToggle";
+export * from "./SearchToggle";

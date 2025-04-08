@@ -1,14 +1,14 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from "react";
 
 interface State {
-  horizontal: 'left' | 'right' | 'unchanged',
-  vertical: 'up' | 'down' | 'unchanged',
+  horizontal: "left" | "right" | "unchanged";
+  vertical: "up" | "down" | "unchanged";
 }
 
 const useWindowScrollInfo = () => {
   const [scrollDirection, setScrollDirection] = useState<State>({
-    horizontal: 'unchanged',
-    vertical: 'unchanged',
+    horizontal: "unchanged",
+    vertical: "unchanged",
   });
   const [isTop, setIsTop] = useState(false);
   const prev = useRef<{
@@ -26,37 +26,39 @@ const useWindowScrollInfo = () => {
       if (prev.current === null) {
         prev.current = {
           x: scrollX,
-          y: scrollY
-        }
+          y: scrollY,
+        };
       } else {
         const direction: State = {
-          horizontal: 'unchanged',
-          vertical: 'unchanged',
+          horizontal: "unchanged",
+          vertical: "unchanged",
         };
         if (scrollX > prev.current.x) {
-          direction.horizontal = 'left';
+          direction.horizontal = "left";
           prev.current.x = scrollY;
         } else if (scrollX < prev.current.x) {
-          direction.horizontal = 'right';
+          direction.horizontal = "right";
           prev.current.x = scrollX;
         } else {
-          direction.horizontal = 'unchanged';
+          direction.horizontal = "unchanged";
         }
         if (scrollY > prev.current.y) {
-          direction.vertical = 'down';
+          direction.vertical = "down";
           prev.current.y = scrollY;
         } else if (scrollY < prev.current.y) {
-          direction.vertical = 'up';
+          direction.vertical = "up";
           prev.current.y = scrollY;
         } else {
-          direction.vertical = 'unchanged';
+          direction.vertical = "unchanged";
         }
-        setScrollDirection(state => {
-          if (state.horizontal === direction.horizontal && state.vertical === direction.vertical) {
+        setScrollDirection((state) => {
+          if (
+            state.horizontal === direction.horizontal &&
+            state.vertical === direction.vertical
+          ) {
             return state;
-          } else {
-            return direction;
           }
+          return direction;
         });
       }
     };
@@ -65,13 +67,13 @@ const useWindowScrollInfo = () => {
     //Window scroll may be changed between render and effect handler.
     handler();
 
-    window.addEventListener('scroll', handler, {
+    window.addEventListener("scroll", handler, {
       capture: false,
       passive: true,
     });
 
     return () => {
-      window.removeEventListener('scroll', handler, {
+      window.removeEventListener("scroll", handler, {
         capture: false,
       });
     };

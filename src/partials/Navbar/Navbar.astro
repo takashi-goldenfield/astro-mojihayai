@@ -13,7 +13,7 @@ const {
   logo,
   ...rest
 } = config;
-const Logo = (logo && typeof logo != 'string') ? ('then' in logo ? (await logo).default : logo) : null;
+const Logo = (logo && typeof logo !== 'string') ? ('then' in logo ? (await logo).default : logo) : null;
 ---
 <CustomNavbar containerClassName={className} {...rest} client:load>
   <Fragment slot="logo">

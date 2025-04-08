@@ -1,21 +1,18 @@
-.drawerOverlay[data-state='open'] {
-  animation: fadeIn .15s ease-out;
+.drawerOverlay[data-state="open"] {
+  animation: fadeIn 0.15s ease-out;
 }
 
-.drawerOverlay[data-state='closed'] {
-  animation: fadeOut .15s ease-out;
+.drawerOverlay[data-state="closed"] {
+  animation: fadeOut 0.15s ease-out;
 }
 
-
-.drawerContent[data-state='open'] {
-  animation: slideIn .3s ease;
+.drawerContent[data-state="open"] {
+  animation: slideIn 0.3s ease;
 }
 
-.drawerContent[data-state='closed'] {
-  animation: slideOut .3s ease;
+.drawerContent[data-state="closed"] {
+  animation: slideOut 0.3s ease;
 }
-
-
 
 @keyframes fadeIn {
   from {

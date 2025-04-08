@@ -1,2 +1,2 @@
-export { default } from './ArticleOutdateTip';
-export * from './ArticleOutdateTip';
+export { default } from "./ArticleOutdateTip";
+export * from "./ArticleOutdateTip";

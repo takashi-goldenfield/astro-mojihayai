@@ -1,2 +1,2 @@
-export { default } from './Toc';
-export * from './Toc';
+export { default } from "./Toc";
+export * from "./Toc";

@@ -2,12 +2,10 @@ import {
   asciiAlpha,
   asciiAlphanumeric,
   markdownLineEnding,
-  markdownSpace
-} from 'micromark-util-character';
-import { factorySpace } from 'micromark-factory-space';
-// import { codes } from 'micromark-util-symbol/lib/codes';
-// import { types } from 'micromark-util-symbol/lib/types';
-import { codes, types, constants } from 'micromark-util-symbol';
+  markdownSpace,
+} from "micromark-util-character";
+import { factorySpace } from "micromark-factory-space";
+import { codes, types, constants } from "micromark-util-symbol";
 
 import type {
   TokenizeContext,
@@ -19,35 +17,32 @@ import type {
   Token,
   TokenType,
   Extension as MicromarkExtension,
-} from 'micromark-util-types';
+} from "micromark-util-types";
 
-declare module 'micromark-util-types' {
+declare module "micromark-util-types" {
   interface TokenTypeMap {
-    admonition: 'admonition';
-    admonitionPrefix: 'admonitionPrefix';
-    admonitionMarker: 'admonitionMarker';
-    admonitionName: 'admonitionName';
-    admonitionTitle: 'admonitionTitle';
-    admonitionIndent: 'admonitionIndent';
+    admonition: "admonition";
+    admonitionPrefix: "admonitionPrefix";
+    admonitionMarker: "admonitionMarker";
+    admonitionName: "admonitionName";
+    admonitionTitle: "admonitionTitle";
+    admonitionIndent: "admonitionIndent";
   }
   interface ContainerState {
     indent?: number;
   }
 }
 
-
 // characters in name can be: a-z, A-Z, 0-9, -, _
 // but the first character must be a-z or A-Z
 function factoryName(
-  this: TokenizeContext, 
-  effects: Effects, 
-  ok: State, 
-  nok: State, 
+  this: TokenizeContext,
+  effects: Effects,
+  ok: State,
+  nok: State,
   type: TokenType
 ) {
-  const self = this;
-
-  const start: State = function(code) {
+  const start: State = (code) => {
     if (asciiAlpha(code)) {
       effects.enter(type);
       effects.consume(code);
@@ -55,9 +50,9 @@ function factoryName(
     }
 
     return nok;
-  }
+  };
 
-  const name: State = function(code) {
+  const name: State = (code) => {
     if (
       code === codes.dash ||
       code === codes.underscore ||
@@ -68,10 +63,10 @@ function factoryName(
     }
 
     effects.exit(type);
-    return self.previous === codes.dash || self.previous === codes.underscore
+    return this.previous === codes.dash || this.previous === codes.underscore
       ? nok
       : ok;
-  }
+  };
   return start;
 }
 // tokenizing title, the title can be any character except line ending
@@ -79,29 +74,29 @@ function factoryTitle(
   effects: Effects,
   ok: State,
   nok: State,
-  type: TokenType,
+  type: TokenType
 ) {
   let previous: Token;
-  const start: State = function(code) {
+  const start: State = (code) => {
     effects.enter(type);
     return titleStart;
-  }
-  const titleStart: State = function(code) {
+  };
+  const titleStart: State = (code) => {
     if (markdownLineEnding(code) || code === codes.eof) {
       effects.exit(type);
       return ok;
     }
     const token = effects.enter(types.chunkText, {
       contentType: constants.contentTypeText,
-      previous
-    })
-    if (previous) previous.next = token
-    previous = token
+      previous,
+    });
+    if (previous) previous.next = token;
+    previous = token;
 
     effects.consume(code);
     return title;
-  }
-  const title: State = function(code) {
+  };
+  const title: State = (code) => {
     if (markdownLineEnding(code) || code === codes.eof) {
       effects.exit(types.chunkText);
       effects.exit(type);
@@ -109,87 +104,83 @@ function factoryTitle(
     }
     effects.consume(code);
     return title;
-  }
+  };
   return start;
 }
 
-const tokenizeIndent: Tokenizer = function(effects, ok, nok) {
-  const self = this;
-
-  const prefix: State = function(code) {
-    if (!self.containerState) {
-      throw new Error('expected state')
+const tokenizeIndent: Tokenizer = function (effects, ok, nok) {
+  const prefix: State = (code) => {
+    if (!this.containerState) {
+      throw new Error("expected state");
     }
-    if (typeof self.containerState.indent !== 'number') {
-      throw new Error('expected indent')
+    if (typeof this.containerState.indent !== "number") {
+      throw new Error("expected indent");
     }
     return factorySpace(
       effects,
       afterPrefix,
-      'admonitionIndent',
-      constants.tabSize + 1,
-    )
-  }
+      "admonitionIndent",
+      constants.tabSize + 1
+    );
+  };
 
-  const afterPrefix: State = function(code) {
-    if (!self.containerState) {
-      throw new Error('expected state')
+  const afterPrefix: State = (code) => {
+    if (!this.containerState) {
+      throw new Error("expected state");
     }
-    const tail = self.events[self.events.length - 1]
+    const tail = this.events[this.events.length - 1];
     if (tail) {
       const [type, token, context] = tail;
-      if (token.type === 'admonitionIndent'
-        && token.end.column - 1 === self.containerState.indent) {
+      if (
+        token.type === "admonitionIndent" &&
+        token.end.column - 1 === this.containerState.indent
+      ) {
         return ok;
       }
     }
     return nok;
-  }
-  
-  return prefix
-}
+  };
 
-const tokenizeBlankLine: Tokenizer = function(effects, ok, nok) {
-  const self = this;
-  const start: State = function(code) {
-    return markdownSpace(code)
+  return prefix;
+};
+
+const tokenizeBlankLine: Tokenizer = (effects, ok, nok) => {
+  const start: State = (code) =>
+    markdownSpace(code)
       ? factorySpace(effects, after, types.whitespace)
-      : after
-  }
-  const after: State = function(code) {
-    return code === codes.eof || markdownLineEnding(code) ? ok : nok
-  }
-  return start
-}
+      : after;
+  const after: State = (code) =>
+    code === codes.eof || markdownLineEnding(code) ? ok : nok;
+  return start;
+};
 
-const tokenizeAdmonitionStart: Tokenizer = function(effects, ok, nok) {
-  // used for factoryName
-  const self = this;
+const tokenizeAdmonitionStart: Tokenizer = function (effects, ok, nok) {
   // define data
   let markerSize = 0;
-  const tail = self.events[self.events.length - 1];
+  const tail = this.events[this.events.length - 1];
   let initialIndent = 0;
   if (tail) {
     const [tailType, tailToken, tailContext] = tail;
-    initialIndent = tailToken.type === 'admonitionIndent'
-      ? tailContext.sliceSerialize(tailToken, true).length
-      : 0;
+    initialIndent =
+      tailToken.type === "admonitionIndent"
+        ? tailContext.sliceSerialize(tailToken, true).length
+        : 0;
   }
-  if (!self.containerState) {
-    throw new Error('expected state')
+  if (!this.containerState) {
+    throw new Error("expected state");
   }
-  self.containerState.indent = initialIndent + constants.tabSize;
+  this.containerState.indent = initialIndent + constants.tabSize;
   // define states
-  const start: State = function(code) {
-    effects.enter('admonition');
-    effects.enter('admonitionPrefix');
+  const start: State = (code) => {
+    effects.enter("admonition");
+    effects.enter("admonitionPrefix");
     if (code === codes.exclamationMark) {
-      effects.enter('admonitionMarker');
+      effects.enter("admonitionMarker");
       return marker;
     }
     return nok;
-  }
-  const marker: State = function(code) {
+  };
+  const marker: State = (code) => {
     if (code === codes.exclamationMark) {
       effects.consume(code);
       markerSize++;
@@ -198,19 +189,18 @@ const tokenizeAdmonitionStart: Tokenizer = function(effects, ok, nok) {
     if (markerSize !== 3) {
       return nok;
     }
-    effects.exit('admonitionMarker');
+    effects.exit("admonitionMarker");
     return afterMarker;
-  }
-  const afterMarker: State = function(code) {
+  };
+  const afterMarker: State = (code) => {
     if (markdownSpace(code)) {
       return factorySpace(effects, afterMarker, types.whitespace);
     }
     return name;
-  }
-  const name: State = function(code) {
-    return factoryName.call(self, effects, afterName, nok, 'admonitionName');
-  }
-  const afterName: State = function(code) {
+  };
+  const name: State = (code) =>
+    factoryName.call(this, effects, afterName, nok, "admonitionName");
+  const afterName: State = (code) => {
     if (markdownSpace(code)) {
       return factorySpace(effects, afterName, types.whitespace);
     }
@@ -218,48 +208,46 @@ const tokenizeAdmonitionStart: Tokenizer = function(effects, ok, nok) {
       return after;
     }
     return title;
-  }
-  const title: State = function(code) {
-    return factoryTitle(effects, afterTitle, nok, 'admonitionTitle');
-  }
-  const afterTitle: State = function(code) {
+  };
+  const title: State = (code) =>
+    factoryTitle(effects, afterTitle, nok, "admonitionTitle");
+  const afterTitle: State = (code) => {
     if (!markdownLineEnding(code)) {
       effects.consume(code);
       // self.parser.lazy[t.start.line] = false
       return afterTitle;
     }
     return after;
-  }
-  const after: State = function(code) {
-    effects.exit('admonitionPrefix');
+  };
+  const after: State = (code) => {
+    effects.exit("admonitionPrefix");
     return ok;
-  }
+  };
   return start;
-}
+};
 
-const tokenizeAdmonitionContinuation: Tokenizer = function(effects, ok, nok) {
-  return effects.check(blankLine, ok, effects.attempt(indent, ok, nok))
-}
+const tokenizeAdmonitionContinuation: Tokenizer = (effects, ok, nok) =>
+  effects.check(blankLine, ok, effects.attempt(indent, ok, nok));
 
-const exit: Exiter = function(effects) {
-  effects.exit('admonition');
-}
+const exit: Exiter = (effects) => {
+  effects.exit("admonition");
+};
 
-const indent: Construct = {tokenize: tokenizeIndent, partial: true}
-const blankLine: Construct = {tokenize: tokenizeBlankLine, partial: true}
+const indent: Construct = { tokenize: tokenizeIndent, partial: true };
+const blankLine: Construct = { tokenize: tokenizeBlankLine, partial: true };
 const admonition: Construct = {
-  name: 'admonition',
+  name: "admonition",
   tokenize: tokenizeAdmonitionStart,
   continuation: {
     tokenize: tokenizeAdmonitionContinuation,
   },
   exit: exit,
-}
+};
 
 export const syntax = (): MicromarkExtension => {
   return {
     document: {
       [codes.exclamationMark]: admonition,
-    }
-  }
-}
+    },
+  };
+};

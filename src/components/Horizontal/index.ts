@@ -1,2 +1,2 @@
-export { default } from './Horizontal';
-export * from './Horizontal';
+export { default } from "./Horizontal";
+export * from "./Horizontal";

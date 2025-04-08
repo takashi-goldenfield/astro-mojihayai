@@ -6,28 +6,30 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import NoSSR from '../../NoSSR';
-import useMermaidSvg from './useMermaidSvg';
+import NoSSR from "../../NoSSR";
+import useMermaidSvg from "./useMermaidSvg";
 
-import styles from './Mermaid.module.css';
+import styles from "./Mermaid.module.css";
 
 export interface MermaidProps {
   value: string;
 }
 
 // Stable className to allow users to easily target with CSS
-export const MermaidContainerClassName = 'mermaid-container';
+export const MermaidContainerClassName = "mermaid-container";
 
-function MermaidDiagram({value}: MermaidProps) {
+function MermaidDiagram({ value }: MermaidProps) {
   const svg = useMermaidSvg(value);
   return svg ? (
     <div
       className={`${MermaidContainerClassName} ${styles.container}`}
-      // eslint-disable-next-line react/no-danger
-      dangerouslySetInnerHTML={{__html: svg}}
+      // biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation>
+      dangerouslySetInnerHTML={{ __html: svg }}
     />
   ) : (
-    <div className='h-72 flex justify-center items-center bg-gray-500/10 rounded-lg'>Rendering</div>
+    <div className="h-72 flex justify-center items-center bg-gray-500/10 rounded-lg">
+      Rendering
+    </div>
   );
 }
 

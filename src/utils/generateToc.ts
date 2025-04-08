@@ -1,14 +1,13 @@
 // from https://github.com/withastro/docs/blob/c3d056b868b83ec7be67d87b5877648c9a7e2231/src/util/generateToc.ts
 
-import type { MarkdownHeading } from 'astro'
+import type { MarkdownHeading } from "astro";
 
 function diveChildren(item: TocItem, depth: number): TocItem[] {
   if (depth === 1) {
     return item.children;
-  } else {
-    // e.g., 2
-    return diveChildren(item.children[item.children.length - 1], depth - 1);
   }
+  // e.g., 2
+  return diveChildren(item.children[item.children.length - 1], depth - 1);
 }
 
 interface TocItem extends MarkdownHeading {
@@ -16,19 +15,24 @@ interface TocItem extends MarkdownHeading {
 }
 
 type GenerateTocOptions = {
-  minDepth: 1 | 2 | 3 | 4 | 5 | 6,
-  maxDepth: 1 | 2 | 3 | 4 | 5 | 6,
-}
+  minDepth: 1 | 2 | 3 | 4 | 5 | 6;
+  maxDepth: 1 | 2 | 3 | 4 | 5 | 6;
+};
 
-export default function generateToc(headings: MarkdownHeading[], options: GenerateTocOptions = {
-  minDepth: 2,
-  maxDepth: 4,
-}) {
+export default function generateToc(
+  headings: MarkdownHeading[],
+  options: GenerateTocOptions = {
+    minDepth: 2,
+    maxDepth: 4,
+  }
+) {
   const { minDepth, maxDepth } = options;
-  headings = headings.filter(({ depth }) => depth >= minDepth && depth <= maxDepth);
+  const _headings = headings.filter(
+    ({ depth }) => depth >= minDepth && depth <= maxDepth
+  );
   const toc: TocItem[] = [];
 
-  for (const heading of headings) {
+  for (const heading of _headings) {
     if (toc.length === 0) {
       toc.push({
         ...heading,
@@ -39,7 +43,7 @@ export default function generateToc(headings: MarkdownHeading[], options: Genera
       if (heading.depth < lastItemInToc.depth) {
         console.warn(`Orphan heading found: ${heading.text}.`);
         continue;
-      } 
+      }
       if (heading.depth === lastItemInToc.depth) {
         // same depth
         toc.push({

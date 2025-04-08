@@ -1,6 +1,6 @@
-import Mermaid from './Mermaid';
-import Admonition from './Admonition';
-import { H1, H2, H3, H4, H5, H6 } from './Heading';
+import Mermaid from "./Mermaid";
+import Admonition from "./Admonition";
+import { H1, H2, H3, H4, H5, H6 } from "./Heading";
 // import { CH } from './CodeHike';
 
 const MDXComponents = {
@@ -13,6 +13,6 @@ const MDXComponents = {
   h5: H5,
   h6: H6,
   // CH,
-}
+};
 
 export default MDXComponents;

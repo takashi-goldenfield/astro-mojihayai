@@ -38,19 +38,19 @@ const {
     </p>
     <div class="flex space-x-4">
       <div class="text-sm">
-        <h6 class="mb-1">作者</h6>
+        <h6 class="mb-1">Author</h6>
         <p>{author}</p>
       </div>
       <div class="text-sm">
-        <h6 class="mb-1">发布于</h6>
+        <h6 class="mb-1">Published on</h6>
         <p><DateTime date={date} /></p>
       </div>
       <div class="text-sm">
-        <h6 class="mb-1">编辑于</h6>
+        <h6 class="mb-1">Updated on</h6>
         <p><DateTime date={updateDate} /></p>
       </div>
       <div class="text-sm">
-        <h6 class="mb-1">许可协议</h6>
+        <h6 class="mb-1">License</h6>
         <div class="flex space-x-1">
           {licenseUrl ? (
             <a href={licenseUrl} target="_blank">{licenseName}</a>

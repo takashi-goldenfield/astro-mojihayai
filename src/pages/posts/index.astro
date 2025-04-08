@@ -1,0 +1,69 @@
+---
+import compareDesc from "date-fns/compareDesc";
+import PageLayout from "@/layouts/PageLayout.astro";
+import type { Page } from "@/types";
+import getPosts from "@/utils/getPosts";
+import groupBy from "@/utils/groupBy";
+import { getYear, getMonth } from "date-fns";
+import Archive, { type ArchiveConfig } from "@/partials/Archive";
+
+const allPosts = (await getPosts())
+  .filter((post) => !post.draft)
+  .sort((a, b) => compareDesc(a.date, b.date));
+
+const groupedByYear = groupBy(allPosts, (post) => getYear(post.date));
+const months = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+
+const page: Page = {
+  type: "posts",
+  title: "Posts timeline",
+  posts: allPosts,
+  author: "default", // Add the author property
+};
+---
+
+<PageLayout page={page} hasSidebar={false}>
+  <div class="space-y-4">
+    {
+      Object.keys(groupedByYear)
+        .sort((a, b) => Number(b) - Number(a))
+        .map((year) => {
+          const posts = groupedByYear[year];
+          const groupedByMonth = groupBy(posts, (post) => getMonth(post.date));
+          const config: ArchiveConfig = {
+            title: `${year}`,
+            timeline: Object.keys(groupedByMonth)
+              .sort((a, b) => Number(b) - Number(a))
+              .map((month) => {
+                const posts = groupedByMonth[month];
+                const monthTextLabel = months[Number(month)];
+                return {
+                  label: `${monthTextLabel}`,
+                  posts: posts.map((post) => ({
+                    title: post.title,
+                    image: post.image,
+                    date: post.date,
+                    description: post.excerpt,
+                    url: post.url,
+                  })),
+                };
+              }),
+          };
+          return <Archive config={config} />;
+        })
+    }
+  </div>
+</PageLayout>

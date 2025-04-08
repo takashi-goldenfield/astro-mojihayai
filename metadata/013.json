@@ -1,0 +1,39 @@
+{
+    "name": "Zebra",
+    "description": "The Zebra, a spirit of the savanna, wears the stripes of the sun and dances with the rhythm of the earth.",
+    "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/013.zebra.webp",
+    "external_url": "https://yourwebsite.com/collection",
+    "artist": "Mystic Artist",
+    "collection": "Mystic Creatures Collection",
+    "conservation_status": "Least Concern",
+    "attributes": [
+        {
+            "trait_type": "Species",
+            "value": "Equus quagga"
+        },
+        {
+            "trait_type": "Habitat",
+            "value": "Savanna, Grasslands"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Least Concern"
+        },
+        {
+            "trait_type": "Abilities",
+            "value": "Speed, Stripes, Herd Behavior"
+        },
+        {
+            "trait_type": "Diet",
+            "value": "Herbivore"
+        },
+        {
+            "trait_type": "Lifespan",
+            "value": "25 years"
+        },
+        {
+            "trait_type": "Speed",
+            "value": "40 mph"
+        }
+    ]
+}

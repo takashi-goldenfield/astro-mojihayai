@@ -1,0 +1,86 @@
+---
+import { getCollection, getEntryBySlug } from "astro:content";
+import PageLayout from "../../layouts/PageLayout.astro";
+import type { Page } from "../../types";
+
+const { slug } = Astro.params;
+const nftCollection = await getCollection("nft");
+const nftEntry = nftCollection.find((entry) => entry.slug === slug);
+
+if (!nftEntry) {
+  throw new Error(`NFT with slug "${slug}" not found`);
+}
+
+const page: Page = {
+  title: nftEntry.data.name,
+  description: nftEntry.data.description,
+  image: nftEntry.data.art,
+  author: "default",
+};
+
+export async function getStaticPaths() {
+  const nftCollection = await getCollection("nft");
+  return nftCollection.map((entry) => ({
+    params: { slug: entry.slug },
+  }));
+}
+
+export const prerender = false;
+---
+
+<PageLayout
+  page={page}
+  hasFooter={true}
+  hasHero={true}
+  hasNavbar={true}
+  hasComment={true}
+  hasSidebar={false}
+>
+  <section class="mb-6 not-prose">
+    <h2 class="text-2xl font-bold mb-3 text-center text-blue-600">
+      {nftEntry.data.name}
+    </h2>
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+      <div class="p-4 border rounded-lg">
+        <img
+          src={typeof nftEntry.data.art === "string"
+            ? nftEntry.data.art
+            : nftEntry.data.art.src}
+          alt={nftEntry.data.name}
+          class="w-full h-auto rounded-lg"
+        />
+      </div>
+      <div class="p-4 border rounded-lg lg:col-span-2">
+        <p>{nftEntry.data.description}</p>
+        {
+          nftEntry.data.attributes && (
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+              {nftEntry.data.attributes.map((attr, index) => (
+                <div class="p-2 border rounded-lg">
+                  <strong>{attr.trait_type}:</strong> {attr.value}
+                </div>
+              ))}
+            </div>
+          )
+        }
+        <div class="mt-11 flex justify-between">
+          <button class="bg-blue-500 text-white font-bold py-2 px-4 rounded">
+            Mint
+          </button>
+          {
+            nftEntry.data.external_url && (
+              <a
+                href={nftEntry.data.external_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-blue-500 underline"
+              >
+                External URL
+              </a>
+            )
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+</PageLayout>

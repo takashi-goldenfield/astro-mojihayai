@@ -1,0 +1,139 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import type { Page } from "@/types";
+import Profile from "@/components/Profile/Profile.astro";
+import { getCollection } from "astro:content";
+import { CONTRIBUTORS_COLLECTION_NAME } from "@/constants";
+
+const page: Page = {
+  title: "Author's Information",
+  description:
+    "The flower path has never been swept for guests, the door is now open for you",
+  image: import("src/assets/friends-bg.webp"),
+  author: "default",
+};
+
+const authorEntries = await getCollection(CONTRIBUTORS_COLLECTION_NAME);
+---
+
+<PageLayout
+  page={page}
+  hasFooter={true}
+  hasHero={true}
+  hasNavbar={true}
+  hasComment={true}
+  hasSidebar={false}
+>
+  <section class="mb-6 not-prose">
+    <h2 class="text-xl font-bold mb-2 text-center">Contributors</h2>
+    <h3 class="text-center text-gray-500 dark:text-gray-400 mb-6 text-lg">
+      "Here, your dedicated efforts shall be eternally recognized and
+      cherished."
+    </h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      {
+        authorEntries.map((entry: any) => (
+          <Profile
+            avatar={entry.data.avatar}
+            background={entry.data.background}
+            author={entry.data.name}
+            description={entry.data.description}
+            socialIcons={[
+              entry.data.twitter
+                ? {
+                    label: "Twitter",
+                    color: "#1DA1F2",
+                    icon: "tabler:brand-twitter",
+                    url: entry.data.twitter,
+                  }
+                : null,
+              entry.data.github
+                ? {
+                    label: "GitHub",
+                    color: "#181717",
+                    icon: "tabler:brand-github",
+                    url: entry.data.github,
+                  }
+                : null,
+              entry.data.linkedin
+                ? {
+                    label: "LinkedIn",
+                    color: "#0077B5",
+                    icon: "tabler:brand-linkedin",
+                    url: entry.data.linkedin,
+                  }
+                : null,
+              entry.data.website
+                ? {
+                    label: "Website",
+                    color: "#4A4A4A",
+                    icon: "tabler:globe",
+                    url: entry.data.website,
+                  }
+                : null,
+              entry.data.stackoverflow
+                ? {
+                    label: "Stack Overflow",
+                    color: "#F48024",
+                    icon: "tabler:brand-stackoverflow",
+                    url: entry.data.stackoverflow,
+                  }
+                : null,
+              entry.data.devto
+                ? {
+                    label: "Dev.to",
+                    color: "#0A0A0A",
+                    icon: "tabler:brand-dev-to",
+                    url: entry.data.devto,
+                  }
+                : null,
+              entry.data.medium
+                ? {
+                    label: "Medium",
+                    color: "#00AB6C",
+                    icon: "tabler:brand-medium",
+                    url: entry.data.medium,
+                  }
+                : null,
+              entry.data.youtube
+                ? {
+                    label: "YouTube",
+                    color: "#FF0000",
+                    icon: "tabler:brand-youtube",
+                    url: entry.data.youtube,
+                  }
+                : null,
+            ].filter((icon) => icon !== null)}
+          />
+        ))
+      }
+    </div>
+  </section>
+  <section
+    class="prose dark:prose-invert dark:prose-dark plate-bg border-highlight p-4 md:p-8 rounded-xl mb-3"
+  >
+    <p>
+      Although the establishment of the small site is not for the purpose of
+      dissemination, but still welcome like-minded friends, if you want to apply
+      for a friend link, here are two ways：
+    </p>
+    <ol>
+      <li>
+        Leave a message below this article, leaving your name, website,
+        description, avatar link, theme color, font color；
+      </li>
+      <li>
+        On this repository <a
+          href="https://github.com/takashi-goldenfield/astro-mecure/pulls"
+          target="_blank">Github</a
+        >
+        <ol type="a">
+          <li>Submit a PR</li>
+          <li>Navigate to: <code>\src\content\contributors\</code></li>
+          <li>Add a file<code>&ltyour-name&gt</code>.md</li>
+          <li>just refer to other people's file contents</li>
+        </ol>
+      </li>
+    </ol>
+  </section>
+</PageLayout>

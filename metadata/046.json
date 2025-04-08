@@ -1,0 +1,39 @@
+{
+    "name": "Tarantula",
+    "description": "The Tarantula, a weaver of the night, spins the threads of the moon and guards the secrets of the earth.",
+    "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/046.tarantula.webp",
+    "external_url": "https://yourwebsite.com/collection",
+    "artist": "Mystic Artist",
+    "collection": "Mystic Creatures Collection",
+    "conservation_status": "Least Concern",
+    "attributes": [
+        {
+            "trait_type": "Species",
+            "value": "Theraphosidae"
+        },
+        {
+            "trait_type": "Habitat",
+            "value": "Forests, Deserts"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Least Concern"
+        },
+        {
+            "trait_type": "Abilities",
+            "value": "Venom, Silk Production, Camouflage"
+        },
+        {
+            "trait_type": "Diet",
+            "value": "Carnivore"
+        },
+        {
+            "trait_type": "Lifespan",
+            "value": "10-25 years"
+        },
+        {
+            "trait_type": "Speed",
+            "value": "1 mph"
+        }
+    ]
+}

@@ -1,7 +1,6 @@
-import { useMemo } from 'react';
-import useUncontrolled from './useUncontrolled';
-export const DOTS = 'dots';
-
+import { useMemo } from "react";
+import useUncontrolled from "./useUncontrolled";
+export const DOTS = "dots";
 
 function range(start: number, end: number) {
   const length = end - start + 1;
@@ -58,26 +57,37 @@ export default function usePagination({
   const first = () => setPage(1);
   const last = () => setPage(_total);
 
-  const paginationRange = useMemo((): (number | 'dots')[] => {
+  const paginationRange = useMemo((): (number | "dots")[] => {
     const totalPageNumbers = siblings * 2 + 3 + boundaries * 2;
     if (totalPageNumbers >= _total) {
       return range(1, _total);
     }
 
     const leftSiblingIndex = Math.max(activePage - siblings, boundaries);
-    const rightSiblingIndex = Math.min(activePage + siblings, _total - boundaries);
+    const rightSiblingIndex = Math.min(
+      activePage + siblings,
+      _total - boundaries,
+    );
 
     const shouldShowLeftDots = leftSiblingIndex > boundaries + 2;
     const shouldShowRightDots = rightSiblingIndex < _total - (boundaries + 1);
 
     if (!shouldShowLeftDots && shouldShowRightDots) {
       const leftItemCount = siblings * 2 + boundaries + 2;
-      return [...range(1, leftItemCount), DOTS, ...range(_total - (boundaries - 1), _total)];
+      return [
+        ...range(1, leftItemCount),
+        DOTS,
+        ...range(_total - (boundaries - 1), _total),
+      ];
     }
 
     if (shouldShowLeftDots && !shouldShowRightDots) {
       const rightItemCount = boundaries + 1 + 2 * siblings;
-      return [...range(1, boundaries), DOTS, ...range(_total - rightItemCount, _total)];
+      return [
+        ...range(1, boundaries),
+        DOTS,
+        ...range(_total - rightItemCount, _total),
+      ];
     }
 
     return [

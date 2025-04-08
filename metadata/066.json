@@ -1,0 +1,39 @@
+{
+    "name": "Fox",
+    "description": "The Fox, a trickster of the night, moves with the silence of the stars and the cunning of the earth.",
+    "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/066.fox.webp",
+    "external_url": "https://yourwebsite.com/collection",
+    "artist": "Mystic Artist",
+    "collection": "Mystic Creatures Collection",
+    "conservation_status": "Least Concern",
+    "attributes": [
+        {
+            "trait_type": "Species",
+            "value": "Vulpes vulpes"
+        },
+        {
+            "trait_type": "Habitat",
+            "value": "Forests, Grasslands"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Least Concern"
+        },
+        {
+            "trait_type": "Abilities",
+            "value": "Hunting, Camouflage, Cunning"
+        },
+        {
+            "trait_type": "Diet",
+            "value": "Omnivore"
+        },
+        {
+            "trait_type": "Lifespan",
+            "value": "3-4 years"
+        },
+        {
+            "trait_type": "Speed",
+            "value": "31 mph"
+        }
+    ]
+}

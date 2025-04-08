@@ -1,0 +1,39 @@
+{
+    "name": "Parrot",
+    "description": "The Parrot, a bard of the forests, speaks the language of the earth and sings the songs of the sky.",
+    "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/027.parrot.webp",
+    "external_url": "https://yourwebsite.com/collection",
+    "artist": "Mystic Artist",
+    "collection": "Mystic Creatures Collection",
+    "conservation_status": "Least Concern",
+    "attributes": [
+        {
+            "trait_type": "Species",
+            "value": "Psittaciformes"
+        },
+        {
+            "trait_type": "Habitat",
+            "value": "Forests, Jungles"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Least Concern"
+        },
+        {
+            "trait_type": "Abilities",
+            "value": "Mimicry, Flying, Intelligence"
+        },
+        {
+            "trait_type": "Diet",
+            "value": "Omnivore"
+        },
+        {
+            "trait_type": "Lifespan",
+            "value": "50-80 years"
+        },
+        {
+            "trait_type": "Speed",
+            "value": "35 mph"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "name": "Dolphin",
+    "description": "The Dolphin, a messenger of the sea, leaps with joy and carries the songs of the ocean.",
+    "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/017.dolphin.webp",
+    "external_url": "https://yourwebsite.com/collection",
+    "artist": "Mystic Artist",
+    "collection": "Mystic Creatures Collection",
+    "conservation_status": "Least Concern",
+    "attributes": [
+        {
+            "trait_type": "Species",
+            "value": "Delphinidae"
+        },
+        {
+            "trait_type": "Habitat",
+            "value": "Oceans, Coasts"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Least Concern"
+        },
+        {
+            "trait_type": "Abilities",
+            "value": "Swimming, Echolocation, Intelligence"
+        },
+        {
+            "trait_type": "Diet",
+            "value": "Carnivore"
+        },
+        {
+            "trait_type": "Lifespan",
+            "value": "40-60 years"
+        },
+        {
+            "trait_type": "Speed",
+            "value": "37 mph"
+        }
+    ]
+}

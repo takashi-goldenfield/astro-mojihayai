@@ -1,0 +1,39 @@
+{
+    "name": "Lion",
+    "description": "The Lion, a celestial guardian of the savanna, roars with the power of the sun and rules with the wisdom of the stars.",
+    "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/001.lion.webp",
+    "external_url": "https://yourwebsite.com/collection",
+    "artist": "Mystic Artist",
+    "collection": "Mystic Creatures Collection",
+    "conservation_status": "Vulnerable",
+    "attributes": [
+        {
+            "trait_type": "Species",
+            "value": "Panthera leo"
+        },
+        {
+            "trait_type": "Habitat",
+            "value": "Savanna, Grasslands"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Common"
+        },
+        {
+            "trait_type": "Abilities",
+            "value": "Strength, Roar, Hunting in Prides"
+        },
+        {
+            "trait_type": "Diet",
+            "value": "Carnivore"
+        },
+        {
+            "trait_type": "Lifespan",
+            "value": "10-14 years"
+        },
+        {
+            "trait_type": "Speed",
+            "value": "50 mph"
+        }
+    ]
+}

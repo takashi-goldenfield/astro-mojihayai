@@ -1,0 +1,39 @@
+{
+    "name": "Dart Frog",
+    "description": "The Dart Frog, a jewel of the rainforest, wears the colors of the sun and carries the poison of the stars.",
+    "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/041.dart_frog.webp",
+    "external_url": "https://yourwebsite.com/collection",
+    "artist": "Mystic Artist",
+    "collection": "Mystic Creatures Collection",
+    "conservation_status": "Least Concern",
+    "attributes": [
+        {
+            "trait_type": "Species",
+            "value": "Dendrobatidae"
+        },
+        {
+            "trait_type": "Habitat",
+            "value": "Rainforests"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Least Concern"
+        },
+        {
+            "trait_type": "Abilities",
+            "value": "Bright Colors, Poison, Climbing"
+        },
+        {
+            "trait_type": "Diet",
+            "value": "Carnivore"
+        },
+        {
+            "trait_type": "Lifespan",
+            "value": "10-15 years"
+        },
+        {
+            "trait_type": "Speed",
+            "value": "10 mph"
+        }
+    ]
+}

@@ -1,17 +1,17 @@
-.dropdownMenuContent[data-state='open'] {
+.dropdownMenuContent[data-state="open"] {
   transform-origin: var(--radix-dropdown-menu-content-transform-origin);
-  animation: scaleIn .15s ease;
+  animation: scaleIn 0.15s ease;
 }
 
-.dropdownMenuContent[data-state='closed'] {
+.dropdownMenuContent[data-state="closed"] {
   transform-origin: var(--radix-dropdown-menu-content-transform-origin);
-  animation: scaleOut .15s ease;
+  animation: scaleOut 0.15s ease;
 }
 
 @keyframes scaleIn {
   from {
     opacity: 0;
-    transform: scale(.85) translateY(-0.25rem);
+    transform: scale(0.85) translateY(-0.25rem);
   }
   to {
     opacity: 1;
@@ -26,6 +26,6 @@
   }
   to {
     opacity: 0;
-    transform: scale(.85) translateY(-0.25rem);
+    transform: scale(0.85) translateY(-0.25rem);
   }
 }

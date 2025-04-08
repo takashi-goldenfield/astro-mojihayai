@@ -1,23 +1,23 @@
 ---
-import PostDetails from './PostDetails.astro';
-import type { BlurPostCardProps as PostCardProps } from '.';
-import { twMerge } from 'tailwind-merge';
-import Image from '../Image';
-export type BlurPostCardProps = Omit<PostCardProps, 'variant'>;
+import PostDetails from "./PostDetails.astro";
+import type { BlurPostCardProps as PostCardProps } from ".";
+import { twMerge } from "tailwind-merge";
+import Image from "../Image";
+export type BlurPostCardProps = Omit<PostCardProps, "variant">;
 export type Props = BlurPostCardProps;
 const {
-  class: className,
-  title,
-  excerpt,
-  url,
-  image,
-  imagePosition = 'left',
-  tags,
-  category,
-  date,
-  wordCount,
-  readingTime,
-  ...rest
+	class: className,
+	title,
+	excerpt,
+	url,
+	image,
+	imagePosition = "left",
+	tags,
+	category,
+	date,
+	wordCount,
+	readingTime,
+	...rest
 } = Astro.props;
 ---
 
@@ -55,7 +55,6 @@ const {
     shadow
   />
 </div>
-
 
 <style>
 @screen md {

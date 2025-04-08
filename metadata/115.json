@@ -1,0 +1,39 @@
+{
+    "name": "Ninja Turtle",
+    "description": "The Ninja Turtle, a warrior of the night, wears the armor of the stars and wields the katana of the moon.",
+    "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/115.ninja_turtle.webp",
+    "external_url": "https://yourwebsite.com/collection",
+    "artist": "Mystic Artist",
+    "collection": "Mystic Creatures Collection",
+    "conservation_status": "Mythical",
+    "attributes": [
+        {
+            "trait_type": "Species",
+            "value": "Mythical"
+        },
+        {
+            "trait_type": "Habitat",
+            "value": "Urban Areas, Sewers"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Mythical"
+        },
+        {
+            "trait_type": "Abilities",
+            "value": "Martial Arts, Stealth, Intelligence"
+        },
+        {
+            "trait_type": "Diet",
+            "value": "Omnivore"
+        },
+        {
+            "trait_type": "Lifespan",
+            "value": "Unknown"
+        },
+        {
+            "trait_type": "Speed",
+            "value": "Unknown"
+        }
+    ]
+}

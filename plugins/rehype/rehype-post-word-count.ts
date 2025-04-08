@@ -1,5 +1,5 @@
-import type { RehypePlugin, MarkdownAstroData } from '@astrojs/markdown-remark';
-import { toText as hastToText } from 'hast-util-to-text';
+import type { RehypePlugin, MarkdownAstroData } from "@astrojs/markdown-remark";
+import { toText as hastToText } from "hast-util-to-text";
 
 export interface Result {
   paragraphs: number;
@@ -45,11 +45,9 @@ function decode(string: string) {
 
       const extra = string.charCodeAt(counter++);
 
-      if ((extra & 0xfc00) == 0xdc00) {
+      if ((extra & 0xfc00) === 0xdc00) {
         // Low surrogate.
-        output.push(
-          ((value & 0x3ff) << 10) + (extra & 0x3ff) + 0x10000
-        );
+        output.push(((value & 0x3ff) << 10) + (extra & 0x3ff) + 0x10000);
       } else {
         // It's an unmatched surrogate; only append this code unit, in case the
         // next code unit is the high surrogate of a surrogate pair.
@@ -91,9 +89,9 @@ function count(target: string, options: Options = {}): Result {
   if (options.stripTags) original = original.replace(/<\/?[a-z][^>]*>/gi, "");
 
   if (options.ignore) {
-    options.ignore.forEach((i) => {
+    for (const i of options.ignore) {
       original = original.replace(i, "");
-    });
+    }
   }
 
   const trimmed = original.trim();
@@ -105,9 +103,14 @@ function count(target: string, options: Options = {}): Result {
    */
 
   return {
-    paragraphs: trimmed ? (trimmed.match(options.hardReturns ? /\n{2,}/g : /\n+/g) || []).length + 1 : 0,
+    paragraphs: trimmed
+      ? (trimmed.match(options.hardReturns ? /\n{2,}/g : /\n+/g) || []).length +
+        1
+      : 0,
     sentences: trimmed ? (trimmed.match(/[.?!…]+./g) || []).length + 1 : 0,
-    words: trimmed ? (trimmed.replace(/['";:,.?¿\-!¡]+/g, "").match(/\S+/g) || []).length : 0,
+    words: trimmed
+      ? (trimmed.replace(/['";:,.?¿\-!¡]+/g, "").match(/\S+/g) || []).length
+      : 0,
     characters: trimmed ? decode(trimmed.replace(/\s/g, "")).length : 0,
     all: decode(original).length,
   };

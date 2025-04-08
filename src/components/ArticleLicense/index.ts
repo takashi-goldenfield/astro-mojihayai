@@ -1,2 +1,2 @@
-export { default } from './ArticleLicense.astro';
-export * from './ArticleLicense.astro';
+export { default } from "./ArticleLicense.astro";
+export * from "./ArticleLicense.astro";

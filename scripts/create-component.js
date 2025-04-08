@@ -48,7 +48,7 @@ async function validateName(name) {
 
 
 function exit() {
-  console.log(chalk.red(`Creating procedure canceled!`));
+  console.log(chalk.red("Creating procedure canceled!"));
   process.exit();
 }
 
@@ -62,7 +62,7 @@ async function createComponent(name) {
   await fs.mkdir(dir);
 
   const tsxFile = path.join(dir, `${componentName}.tsx`);
-  const indexFile = path.join(dir, `index.ts`);
+  const indexFile = path.join(dir, "index.ts");
 
   await fs.writeFile(tsxFile, tsxTemplate, {
     flag: 'wx'

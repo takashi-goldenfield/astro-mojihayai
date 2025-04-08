@@ -1,2 +1,2 @@
-export { default } from './ThemeToggle';
-export * from './ThemeToggle';
+export { default } from "./ThemeToggle";
+export * from "./ThemeToggle";

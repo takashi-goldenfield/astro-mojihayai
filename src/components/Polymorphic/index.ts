@@ -1,2 +1,2 @@
-export { default } from './Polymorphic'
-export * from './Polymorphic'
+export { default } from "./Polymorphic";
+export * from "./Polymorphic";

@@ -1,0 +1,68 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import type { Page } from "@/types";
+import { getCollection } from "astro:content";
+import Pagination from "@/partials/Pagination"; // Import the Pagination component
+import config from "@/config";
+
+const page: Page = {
+  title: "NFT Collection",
+  description: "Explore our unique NFT collection.",
+  image: import("src/assets/nft-bg.webp"),
+  author: "default", // Add the author property
+};
+
+const nftCollection = await getCollection('nft');
+const paginationConfig = config.pagination;
+// Get the current URL and extract the query parameters
+const currentUrl = new URL(Astro.request.url);
+const nftCurrentPage = Number(currentUrl.searchParams.get("nftPage")) || 1;
+
+// Pagination logic for NFT collection
+const ITEMS_PER_PAGE = 128;
+const nftTotalItems = nftCollection.length;
+const nftTotalPages = Math.ceil(nftTotalItems / ITEMS_PER_PAGE);
+const nftStartIndex = (nftCurrentPage - 1) * ITEMS_PER_PAGE;
+const nftEndIndex = nftStartIndex + ITEMS_PER_PAGE;
+const paginatedNftCollection = nftCollection.slice(nftStartIndex, nftEndIndex);
+
+const nftPageUrls = Array.from(
+  { length: nftTotalPages },
+  (_, i) => `?nftPage=${i + 1}`
+);
+---
+
+<PageLayout
+  page={page}
+  hasFooter={true}
+  hasHero={true}
+  hasNavbar={true}
+  hasComment={true}
+  hasSidebar={false}
+>
+  <section class="mb-6 not-prose">
+    <h2 class="text-xl font-bold mb-3 text-center">NFT Collection</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {paginatedNftCollection.map((nft) => (
+        <div class="p-4 border rounded-lg">
+          <a href={`/nft/${nft.slug}`}>
+            <img src={typeof nft.data.image === 'string' ? nft.data.image : nft.data.image.src} alt={nft.data.name} class="w-full h-auto rounded-lg" />
+            <h3 class="text-xs font-bold">{nft.data.name}</h3>
+            <p>{nft.data.description}</p>
+          </a>
+        </div>
+      ))}
+    </div>
+    {
+      paginationConfig && (
+        <Pagination
+          className="my-6 mx-auto max-w-fit"
+          current={nftCurrentPage}
+          total={nftTotalPages}
+          pageUrls={nftPageUrls}
+          config={paginationConfig}
+        />
+      )
+    }
+  </section>
+</PageLayout>

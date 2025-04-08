@@ -1,0 +1,39 @@
+{
+    "name": "Seahorse",
+    "description": "The Seahorse, a spirit of the waters, dances with the rhythm of the waves and the grace of the stars.",
+    "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/053.seahorse.webp",
+    "external_url": "https://yourwebsite.com/collection",
+    "artist": "Mystic Artist",
+    "collection": "Mystic Creatures Collection",
+    "conservation_status": "Vulnerable",
+    "attributes": [
+        {
+            "trait_type": "Species",
+            "value": "Hippocampus"
+        },
+        {
+            "trait_type": "Habitat",
+            "value": "Oceans"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Vulnerable"
+        },
+        {
+            "trait_type": "Abilities",
+            "value": "Swimming, Camouflage, Male Pregnancy"
+        },
+        {
+            "trait_type": "Diet",
+            "value": "Carnivore"
+        },
+        {
+            "trait_type": "Lifespan",
+            "value": "1-5 years"
+        },
+        {
+            "trait_type": "Speed",
+            "value": "0.01 mph"
+        }
+    ]
+}

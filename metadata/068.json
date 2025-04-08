@@ -1,0 +1,39 @@
+{
+    "name": "Ferret",
+    "description": "The Ferret, a spirit of the burrows, moves with the speed of the wind and the curiosity of the stars.",
+    "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/068.ferret.webp",
+    "external_url": "https://yourwebsite.com/collection",
+    "artist": "Mystic Artist",
+    "collection": "Mystic Creatures Collection",
+    "conservation_status": "Least Concern",
+    "attributes": [
+        {
+            "trait_type": "Species",
+            "value": "Mustela putorius furo"
+        },
+        {
+            "trait_type": "Habitat",
+            "value": "Forests, Grasslands"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Least Concern"
+        },
+        {
+            "trait_type": "Abilities",
+            "value": "Hunting, Climbing, Curiosity"
+        },
+        {
+            "trait_type": "Diet",
+            "value": "Carnivore"
+        },
+        {
+            "trait_type": "Lifespan",
+            "value": "6-10 years"
+        },
+        {
+            "trait_type": "Speed",
+            "value": "15 mph"
+        }
+    ]
+}

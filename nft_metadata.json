@@ -1,0 +1,5122 @@
+[
+    {
+        "tokenId": 1,
+        "name": "Lion",
+        "description": "A futuristic lion, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/001.lion.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Feline"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Savannah/Jungle"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Strength, Stealth, Agility"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "15 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "50 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Epic"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 2,
+        "name": "Tiger",
+        "description": "A futuristic tiger, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/002.tiger.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Feline"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Savannah/Jungle"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Strength, Stealth, Agility"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "15 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "50 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Epic"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 3,
+        "name": "Jaguar",
+        "description": "A futuristic jaguar, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/003.jaguar.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Feline"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Savannah/Jungle"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Strength, Stealth, Agility"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "15 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "50 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Epic"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 4,
+        "name": "Leopard",
+        "description": "A futuristic leopard, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/004.leopard.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Feline"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Savannah/Jungle"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Strength, Stealth, Agility"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "15 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "50 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Epic"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 5,
+        "name": "Panda",
+        "description": "A futuristic panda, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/005.panda.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 6,
+        "name": "Polar Bear",
+        "description": "A futuristic polar bear, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/006.polar_bear.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Bear"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Tundra"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Strength, Hibernation, Climbing"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "25 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "35 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Epic"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 7,
+        "name": "Brown Bear",
+        "description": "A futuristic brown bear, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/007.brown_bear.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Bear"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Tundra"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Strength, Hibernation, Climbing"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "25 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "35 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Epic"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 8,
+        "name": "African Elephant",
+        "description": "A futuristic african elephant, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/008.african_elephant.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Elephant"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Savannah/Jungle"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Strength, Intelligence, Memory"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Herbivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "70 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "25 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Epic"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 9,
+        "name": "Asian Elephant",
+        "description": "A futuristic asian elephant, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/009.asian_elephant.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Elephant"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Savannah/Jungle"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Strength, Intelligence, Memory"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Herbivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "70 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "25 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Epic"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 10,
+        "name": "White Rhino",
+        "description": "A futuristic white rhino, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/010.white_rhino.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Rhino"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Savannah"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Strength, Thick Skin, Charge"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Herbivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "40 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "30 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 11,
+        "name": "Black Rhino",
+        "description": "A futuristic black rhino, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/011.black_rhino.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 12,
+        "name": "Giraffe",
+        "description": "A futuristic giraffe, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/012.giraffe.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 13,
+        "name": "Zebra",
+        "description": "A futuristic zebra, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/013.zebra.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 14,
+        "name": "Hippopotamus",
+        "description": "A futuristic hippopotamus, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/014.hippopotamus.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 15,
+        "name": "Seal",
+        "description": "A futuristic seal, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/015.seal.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Marine Animal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Ocean"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Swimming, Predation, Keen Senses"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "30 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "25 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 16,
+        "name": "Sea Lion",
+        "description": "A futuristic sea lion, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/016.sea_lion.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Feline"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Savannah/Jungle"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Strength, Stealth, Agility"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "15 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "50 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Epic"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 17,
+        "name": "Dolphin",
+        "description": "A futuristic dolphin, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/017.dolphin.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Marine Animal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Ocean"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Swimming, Predation, Keen Senses"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "30 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "25 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 18,
+        "name": "Blue Whale",
+        "description": "A futuristic blue whale, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/018.blue_whale.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Marine Animal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Ocean"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Swimming, Predation, Keen Senses"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "30 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "25 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 19,
+        "name": "Humpback Whale",
+        "description": "A futuristic humpback whale, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/019.humpback_whale.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Marine Animal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Ocean"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Swimming, Predation, Keen Senses"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "30 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "25 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 20,
+        "name": "Great White Shark",
+        "description": "A futuristic great white shark, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/020.great_white_shark.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Marine Animal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Ocean"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Swimming, Predation, Keen Senses"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "30 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "25 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 21,
+        "name": "Whale Shark",
+        "description": "A futuristic whale shark, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/021.whale_shark.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Marine Animal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Ocean"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Swimming, Predation, Keen Senses"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "30 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "25 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 22,
+        "name": "Penguin",
+        "description": "A futuristic penguin, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/022.penguin.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Bird"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Wetlands"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Flight, Keen Eyesight, Camouflage"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "20 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "40 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 23,
+        "name": "Eagle",
+        "description": "A futuristic eagle, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/023.eagle.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Bird"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Wetlands"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Flight, Keen Eyesight, Camouflage"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "20 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "40 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 24,
+        "name": "Owl",
+        "description": "A futuristic owl, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/024.owl.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Bird"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Wetlands"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Flight, Keen Eyesight, Camouflage"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "20 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "40 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 25,
+        "name": "Peacock",
+        "description": "A futuristic peacock, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/025.peacock.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Bird"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Wetlands"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Flight, Keen Eyesight, Camouflage"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "20 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "40 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 26,
+        "name": "Flamingo",
+        "description": "A futuristic flamingo, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/026.flamingo.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Bird"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Wetlands"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Flight, Keen Eyesight, Camouflage"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "20 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "40 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 27,
+        "name": "Parrot",
+        "description": "A futuristic parrot, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/027.parrot.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Bird"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Wetlands"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Flight, Keen Eyesight, Camouflage"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "20 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "40 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 28,
+        "name": "Hummingbird",
+        "description": "A futuristic hummingbird, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/028.hummingbird.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Bird"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Wetlands"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Flight, Keen Eyesight, Camouflage"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "20 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "40 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 29,
+        "name": "Kangaroo",
+        "description": "A futuristic kangaroo, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/029.kangaroo.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Marsupial"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Desert"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Hopping, Climbing, Burrowing"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Herbivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "15 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "30 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 30,
+        "name": "Koala",
+        "description": "A futuristic koala, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/030.koala.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Marsupial"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Desert"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Hopping, Climbing, Burrowing"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Herbivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "15 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "30 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 31,
+        "name": "Wallaby",
+        "description": "A futuristic wallaby, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/031.wallaby.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Marsupial"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Desert"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Hopping, Climbing, Burrowing"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Herbivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "15 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "30 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 32,
+        "name": "Wombat",
+        "description": "A futuristic wombat, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/032.wombat.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Marsupial"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Desert"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Hopping, Climbing, Burrowing"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Herbivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "15 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "30 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 33,
+        "name": "King Cobra",
+        "description": "A futuristic king cobra, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/033.king_cobra.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Reptile"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Jungle/River"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Camouflage, Stealth, Swimming"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "50 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "15 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 34,
+        "name": "Python",
+        "description": "A futuristic python, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/034.python.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Reptile"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Jungle/River"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Camouflage, Stealth, Swimming"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "50 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "15 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 35,
+        "name": "Komodo",
+        "description": "A futuristic komodo, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/035.komodo.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Reptile"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Jungle/River"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Camouflage, Stealth, Swimming"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "50 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "15 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 36,
+        "name": "Crocodile",
+        "description": "A futuristic crocodile, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/036.crocodile.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Reptile"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Jungle/River"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Camouflage, Stealth, Swimming"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "50 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "15 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 37,
+        "name": "Nile Crocodile",
+        "description": "A futuristic nile crocodile, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/037.nile_crocodile.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Reptile"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Jungle/River"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Camouflage, Stealth, Swimming"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "50 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "15 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 38,
+        "name": "Alligator",
+        "description": "A futuristic alligator, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/038.alligator.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Reptile"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Jungle/River"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Camouflage, Stealth, Swimming"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "50 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "15 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 39,
+        "name": "Turtle",
+        "description": "A futuristic turtle, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/039.turtle.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Reptile"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Jungle/River"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Camouflage, Stealth, Swimming"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "50 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "15 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 40,
+        "name": "Tortoise",
+        "description": "A futuristic tortoise, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/040.tortoise.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Reptile"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Jungle/River"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Camouflage, Stealth, Swimming"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "50 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "15 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 41,
+        "name": "Dart Frog",
+        "description": "A futuristic dart frog, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/041.dart_frog.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Amphibian"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Rainforest"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Jumping, Camouflage, Toxicity"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "10 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "5 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 42,
+        "name": "Green Frog",
+        "description": "A futuristic green frog, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/042.green_frog.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Amphibian"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Rainforest"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Jumping, Camouflage, Toxicity"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "10 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "5 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 43,
+        "name": "Butterfly",
+        "description": "A futuristic butterfly, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/043.butterfly.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Insect"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Garden"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Flight, Pollination, Camouflage"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Herbivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "1 year"
+            },
+            {
+                "trait_type": "speed",
+                "value": "12 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 44,
+        "name": "Honeybee",
+        "description": "A futuristic honeybee, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/044.honeybee.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Insect"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Garden"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Flight, Pollination, Camouflage"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Herbivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "1 year"
+            },
+            {
+                "trait_type": "speed",
+                "value": "12 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 45,
+        "name": "Ant",
+        "description": "A futuristic ant, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/045.ant.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Insect"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Garden"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Flight, Pollination, Camouflage"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Herbivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "1 year"
+            },
+            {
+                "trait_type": "speed",
+                "value": "12 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 46,
+        "name": "Tarantula",
+        "description": "A futuristic tarantula, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/046.tarantula.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Insect"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Garden"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Flight, Pollination, Camouflage"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Herbivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "1 year"
+            },
+            {
+                "trait_type": "speed",
+                "value": "12 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 47,
+        "name": "Beetle",
+        "description": "A futuristic beetle, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/047.beetle.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Insect"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Garden"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Flight, Pollination, Camouflage"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Herbivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "1 year"
+            },
+            {
+                "trait_type": "speed",
+                "value": "12 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 48,
+        "name": "Octopus",
+        "description": "A futuristic octopus, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/048.octopus.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Marine Animal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Ocean"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Swimming, Predation, Keen Senses"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "30 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "25 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 49,
+        "name": "Squid",
+        "description": "A futuristic squid, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/049.squid.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Marine Animal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Ocean"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Swimming, Predation, Keen Senses"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "30 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "25 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 50,
+        "name": "Starfish",
+        "description": "A futuristic starfish, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/050.starfish.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Marine Animal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Ocean"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Swimming, Predation, Keen Senses"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "30 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "25 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 51,
+        "name": "Crab",
+        "description": "A futuristic crab, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/051.crab.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Marine Animal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Ocean"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Swimming, Predation, Keen Senses"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "30 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "25 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 52,
+        "name": "Lobster",
+        "description": "A futuristic lobster, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/052.lobster.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Marine Animal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Ocean"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Swimming, Predation, Keen Senses"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "30 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "25 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 53,
+        "name": "Seahorse",
+        "description": "A futuristic seahorse, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/053.seahorse.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Marine Animal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Ocean"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Swimming, Predation, Keen Senses"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "30 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "25 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 54,
+        "name": "Clownfish",
+        "description": "A futuristic clownfish, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/054.clownfish.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Marine Animal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Ocean"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Swimming, Predation, Keen Senses"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "30 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "25 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 55,
+        "name": "Hammerhead Shark",
+        "description": "A futuristic hammerhead shark, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/055.hammerhead_shark.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Marine Animal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Ocean"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Swimming, Predation, Keen Senses"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "30 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "25 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 56,
+        "name": "Manta Ray",
+        "description": "A futuristic manta ray, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/056.manta_ray.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Insect"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Garden"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Flight, Pollination, Camouflage"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Herbivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "1 year"
+            },
+            {
+                "trait_type": "speed",
+                "value": "12 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 57,
+        "name": "Wild Boar",
+        "description": "A futuristic wild boar, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/057.wild_boar.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 58,
+        "name": "Antelope",
+        "description": "A futuristic antelope, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/058.antelope.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Insect"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Garden"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Flight, Pollination, Camouflage"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Herbivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "1 year"
+            },
+            {
+                "trait_type": "speed",
+                "value": "12 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 59,
+        "name": "Bison",
+        "description": "A futuristic bison, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/059.bison.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 60,
+        "name": "Mountain Goat",
+        "description": "A futuristic mountain goat, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/060.mountain_goat.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 61,
+        "name": "Sheep",
+        "description": "A futuristic sheep, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/061.sheep.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 62,
+        "name": "Goat",
+        "description": "A futuristic goat, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/062.goat.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 63,
+        "name": "Camel",
+        "description": "A futuristic camel, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/063.camel.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 64,
+        "name": "Dromedary",
+        "description": "A futuristic dromedary, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/064.dromedary.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 65,
+        "name": "Wolf",
+        "description": "A futuristic wolf, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/065.wolf.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Mammal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Desert/Tundra"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "10-20 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 66,
+        "name": "Fox",
+        "description": "A futuristic fox, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/066.fox.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Mammal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Desert/Tundra"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "10-20 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 67,
+        "name": "Raccoon",
+        "description": "A futuristic raccoon, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/067.raccoon.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Mammal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Desert/Tundra"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "10-20 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 68,
+        "name": "Ferret",
+        "description": "A futuristic ferret, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/068.ferret.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Mammal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Desert/Tundra"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "10-20 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 69,
+        "name": "Otter",
+        "description": "A futuristic otter, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/069.otter.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Mammal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Desert/Tundra"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "10-20 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 70,
+        "name": "Beaver",
+        "description": "A futuristic beaver, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/070.beaver.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Mammal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Desert/Tundra"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "10-20 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 71,
+        "name": "Mole",
+        "description": "A futuristic mole, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/071.mole.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Mammal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Desert/Tundra"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "10-20 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 72,
+        "name": "Porcupine",
+        "description": "A futuristic porcupine, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/072.porcupine.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Mammal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Desert/Tundra"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "10-20 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 73,
+        "name": "Rabbit",
+        "description": "A futuristic rabbit, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/073.rabbit.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Mammal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Desert/Tundra"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "10-20 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 74,
+        "name": "Squirrel",
+        "description": "A futuristic squirrel, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/074.squirrel.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Mammal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Desert/Tundra"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "10-20 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 75,
+        "name": "Gorilla",
+        "description": "A futuristic gorilla, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/075.gorilla.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Primate"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Climbing, Intelligence, Communication"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "40 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "20 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 76,
+        "name": "Chimpanzee",
+        "description": "A futuristic chimpanzee, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/076.chimpanzee.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Primate"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Climbing, Intelligence, Communication"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "40 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "20 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 77,
+        "name": "Orangutan",
+        "description": "A futuristic orangutan, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/077.orangutan.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Primate"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Climbing, Intelligence, Communication"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "40 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "20 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 78,
+        "name": "Baboon",
+        "description": "A futuristic baboon, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/078.baboon.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Primate"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Climbing, Intelligence, Communication"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "40 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "20 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 79,
+        "name": "Gibbon",
+        "description": "A futuristic gibbon, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/079.gibbon.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Primate"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Climbing, Intelligence, Communication"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "40 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "20 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 80,
+        "name": "Bat",
+        "description": "A futuristic bat, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/080.bat.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Mammal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Desert/Tundra"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "10-20 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 81,
+        "name": "Amazon Dolphin",
+        "description": "A futuristic amazon dolphin, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/081.amazon_dolphin.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Marine Animal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Ocean"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Swimming, Predation, Keen Senses"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "30 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "25 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 82,
+        "name": "Dolphin",
+        "description": "A futuristic dolphin, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/082.dolphin.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Marine Animal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Ocean"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Swimming, Predation, Keen Senses"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "30 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "25 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 83,
+        "name": "Walrus",
+        "description": "A futuristic walrus, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/083.walrus.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 84,
+        "name": "Narwhal",
+        "description": "A futuristic narwhal, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/084.narwhal.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 85,
+        "name": "Orca",
+        "description": "A futuristic orca, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/085.orca.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 86,
+        "name": "Maui Dolphin",
+        "description": "A futuristic maui dolphin, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/086.maui_dolphin.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Marine Animal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Ocean"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Swimming, Predation, Keen Senses"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "30 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "25 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 87,
+        "name": "Monarch Butterfly",
+        "description": "A futuristic monarch butterfly, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/087.monarch_butterfly.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Insect"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Garden"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Flight, Pollination, Camouflage"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Herbivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "1 year"
+            },
+            {
+                "trait_type": "speed",
+                "value": "12 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 88,
+        "name": "Samurai Cat",
+        "description": "A futuristic samurai cat, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/088.samurai_cat.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 89,
+        "name": "Husky",
+        "description": "A futuristic husky, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/089.husky.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 90,
+        "name": "Tentacule",
+        "description": "A futuristic tentacule, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/090.tentacule.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 91,
+        "name": "Pigeon",
+        "description": "A futuristic pigeon, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/091.pigeon.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 92,
+        "name": "Lotus Cat",
+        "description": "A futuristic lotus cat, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/092.lotus_cat.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 93,
+        "name": "Pig",
+        "description": "A futuristic pig, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/093.pig.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 94,
+        "name": "Pepe Samurai",
+        "description": "A futuristic pepe samurai, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/094.pepe_samurai.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 95,
+        "name": "Shiba Inu",
+        "description": "A futuristic shiba inu, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/095.shiba_inu.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 96,
+        "name": "Qilin",
+        "description": "A futuristic qilin, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/096.qilin.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 97,
+        "name": "Magentaur",
+        "description": "A futuristic magentaur, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/097.magentaur.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 98,
+        "name": "Koi",
+        "description": "A futuristic koi, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/098.koi.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 99,
+        "name": "Tengu",
+        "description": "A futuristic tengu, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/099.tengu.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 100,
+        "name": "Maneki Neko",
+        "description": "A futuristic maneki neko, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/100.maneki_neko.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 101,
+        "name": "Tyrannosaurus",
+        "description": "A futuristic tyrannosaurus, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/101.tyrannosaurus.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 102,
+        "name": "Triceratops",
+        "description": "A futuristic triceratops, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/102.triceratops.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 103,
+        "name": "Brachiosaurus",
+        "description": "A futuristic brachiosaurus, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/103.brachiosaurus.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 104,
+        "name": "Velociraptor",
+        "description": "A futuristic velociraptor, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/104.velociraptor.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 105,
+        "name": "Spinosaurus",
+        "description": "A futuristic spinosaurus, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/105.spinosaurus.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 106,
+        "name": "Mammoth",
+        "description": "A futuristic mammoth, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/106.mammoth.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 107,
+        "name": "Gozilla",
+        "description": "A futuristic gozilla, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/107.gozilla.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 108,
+        "name": "Bearus",
+        "description": "A futuristic bearus, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/108.bearus.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Bear"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Tundra"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Strength, Hibernation, Climbing"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "25 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "35 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Epic"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 109,
+        "name": "Unicorn",
+        "description": "A futuristic unicorn, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/109.unicorn.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 110,
+        "name": "Phoenix",
+        "description": "A futuristic phoenix, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/110.phoenix.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 111,
+        "name": "Megalodon",
+        "description": "A futuristic megalodon, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/111.megalodon.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 112,
+        "name": "Markhor",
+        "description": "A futuristic markhor, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/112.markhor.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Mammal"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Desert/Tundra"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Omnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "10-20 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Varies"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 113,
+        "name": "Anthrop Dragon",
+        "description": "A futuristic anthrop dragon, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/113.anthrop_dragon.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Insect"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Garden"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Flight, Pollination, Camouflage"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Herbivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "1 year"
+            },
+            {
+                "trait_type": "speed",
+                "value": "12 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 114,
+        "name": "Kitsune",
+        "description": "A futuristic kitsune, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/114.kitsune.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 115,
+        "name": "Ninja Turtle",
+        "description": "A futuristic ninja turtle, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/115.ninja_turtle.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Reptile"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Jungle/River"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Camouflage, Stealth, Swimming"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Carnivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "50 years"
+            },
+            {
+                "trait_type": "speed",
+                "value": "15 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Rare"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 116,
+        "name": "Terror Bird",
+        "description": "A futuristic terror bird, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/116.terror_bird.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 117,
+        "name": "Saiga Antelope",
+        "description": "A futuristic saiga antelope, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/117.saiga_antelope.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Insect"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Garden"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Flight, Pollination, Camouflage"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Herbivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "1 year"
+            },
+            {
+                "trait_type": "speed",
+                "value": "12 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 118,
+        "name": "Okapi",
+        "description": "A futuristic okapi, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/118.okapi.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 119,
+        "name": "Platypus",
+        "description": "A futuristic platypus, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/119.platypus.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 120,
+        "name": "Kakapo",
+        "description": "A futuristic kakapo, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/120.kakapo.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 121,
+        "name": "Manticore",
+        "description": "A futuristic manticore, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/121.manticore.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Insect"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Forest/Garden"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Flight, Pollination, Camouflage"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Herbivore"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "1 year"
+            },
+            {
+                "trait_type": "speed",
+                "value": "12 mph"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 122,
+        "name": "Minotaur",
+        "description": "A futuristic minotaur, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/122.minotaur.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 123,
+        "name": "Chamaleon",
+        "description": "A futuristic chamaleon, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/123.chamaleon.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 124,
+        "name": "Archaeopteryx",
+        "description": "A futuristic archaeopteryx, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/124.archaeopteryx.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 125,
+        "name": "Llama",
+        "description": "A futuristic llama, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/125.llama.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 126,
+        "name": "Anaconda",
+        "description": "A futuristic anaconda, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/126.anaconda.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 127,
+        "name": "Alien Monster",
+        "description": "A futuristic alien monster, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/127.alien_monster.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    },
+    {
+        "tokenId": 128,
+        "name": "Baphomet",
+        "description": "A futuristic baphomet, embodying the spirit of its species in a digital world.",
+        "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/128.baphomet.webp",
+        "attributes": [
+            {
+                "trait_type": "species",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "habitat",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "abilities",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "diet",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "lifespan",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "speed",
+                "value": "Unknown"
+            },
+            {
+                "trait_type": "rarity",
+                "value": "Common"
+            }
+        ],
+        "external_url": "",
+        "artist": "MythicCreator",
+        "collection": "Mythical Beasts",
+        "conservation_status": "Not Applicable"
+    }
+]

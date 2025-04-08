@@ -1,2 +1,2 @@
-export { default } from './Archive.astro';
-export * from './Archive.astro';
+export { default } from "./Archive.astro";
+export * from "./Archive.astro";

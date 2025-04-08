@@ -1,4 +1,4 @@
-import { BASE_URL } from '@/constants';
+import { BASE_URL } from "@/constants";
 
 // Code from Deno standard library
 // Copyright 2018-2024 the Deno authors. All rights reserved. MIT license.
@@ -9,7 +9,7 @@ const CHAR_DOT = 46; /* . */
 function assertPath(path?: string) {
   if (typeof path !== "string") {
     throw new TypeError(
-      `Path must be a string. Received ${JSON.stringify(path)}`,
+      `Path must be a string. Received ${JSON.stringify(path)}`
     );
   }
 }
@@ -32,7 +32,10 @@ export function join(...paths: string[]): string {
 
   let joined: string | undefined;
   for (let i = 0, len = paths.length; i < len; ++i) {
-    const path = paths[i]!;
+    const path = paths[i];
+    if (path === undefined) {
+      continue;
+    }
     assertPath(path);
     if (path.length > 0) {
       if (!joined) joined = path;
@@ -54,17 +57,18 @@ export function normalize(path: string): string {
 
   const isAbsolute = isPosixPathSeparator(path.charCodeAt(0));
   const trailingSeparator = isPosixPathSeparator(
-    path.charCodeAt(path.length - 1),
+    path.charCodeAt(path.length - 1)
   );
 
   // Normalize the path
-  path = normalizeString(path, !isAbsolute, "/", isPosixPathSeparator);
+  let _path = path;
+  _path = normalizeString(_path, !isAbsolute, "/", isPosixPathSeparator);
 
-  if (path.length === 0 && !isAbsolute) path = ".";
-  if (path.length > 0 && trailingSeparator) path += "/";
+  if (_path.length === 0 && !isAbsolute) _path = ".";
+  if (_path.length > 0 && trailingSeparator) _path += "/";
 
-  if (isAbsolute) return `/${path}`;
-  return path;
+  if (isAbsolute) return `/${_path}`;
+  return _path;
 }
 
 // Resolves . and .. elements in a path with directory names
@@ -72,7 +76,7 @@ function normalizeString(
   path: string,
   allowAboveRoot: boolean,
   separator: string,
-  isPathSeparator: (code: number) => boolean,
+  isPathSeparator: (code: number) => boolean
 ): string {
   let res = "";
   let lastSegmentLength = 0;
@@ -81,10 +85,10 @@ function normalizeString(
   let code: number | undefined;
   for (let i = 0, len = path.length; i <= len; ++i) {
     if (i < len) code = path.charCodeAt(i);
-    else if (isPathSeparator(code!)) break;
+    else if (code !== undefined && isPathSeparator(code)) break;
     else code = CHAR_FORWARD_SLASH;
 
-    if (isPathSeparator(code!)) {
+    if (code !== undefined && isPathSeparator(code)) {
       if (lastSlash === i - 1 || dots === 1) {
         // NOOP
       } else if (lastSlash !== i - 1 && dots === 2) {
@@ -106,7 +110,8 @@ function normalizeString(
             lastSlash = i;
             dots = 0;
             continue;
-          } else if (res.length === 2 || res.length === 1) {
+          }
+          if (res.length === 2 || res.length === 1) {
             res = "";
             lastSegmentLength = 0;
             lastSlash = i;
@@ -141,4 +146,26 @@ export function url(...paths: string[]): string {
 
 export function isUnderBaseUrl(path: string): boolean {
   return path.startsWith(BASE_URL);
+}
+
+const IPFS_GATEWAY = "https://ipfs.io/ipfs";
+
+export async function getIpfsImageUrls(ipfsHash: string): Promise<string[]> {
+  const response = await fetch(`${IPFS_GATEWAY}/${ipfsHash}`);
+  if (!response.ok) {
+    throw new Error(`Failed to fetch IPFS folder: ${response.statusText}`);
+  }
+  console.log(response.json);
+  const folderContents = await response.json();
+  const imageUrls = folderContents
+    .filter(
+      (item: { type: string; name: string }) =>
+        item.type === "file" && item.name.match(/\.(jpg|jpeg|png|gif|webp)$/i)
+    )
+    .map(
+      (item: { type: string; name: string }) =>
+        `${IPFS_GATEWAY}/${ipfsHash}/${item.name}`
+    );
+
+  return imageUrls;
 }

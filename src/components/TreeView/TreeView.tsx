@@ -1,9 +1,9 @@
-import { useContext, createContext, useState } from 'react'
-import * as Collapsible from '@radix-ui/react-collapsible';
-import IconChevronRight from '~icons/tabler/chevron-right';
-import IconChevronDown from '~icons/tabler/chevron-down';
-import styles from './TreeView.module.css';
-import { twMerge } from 'tailwind-merge';
+import { useContext, createContext, useState } from "react";
+import * as Collapsible from "@radix-ui/react-collapsible";
+import IconChevronRight from "~icons/tabler/chevron-right";
+import IconChevronDown from "~icons/tabler/chevron-down";
+import styles from "./TreeView.module.css";
+import { twMerge } from "tailwind-merge";
 
 const ConfigContext = createContext<{
   icon?: React.ReactNode;
@@ -38,31 +38,37 @@ function TreeViewItem({
   const endIcon = itemEndIcon ?? config?.endIcon;
   return children ? (
     <Collapsible.Root open={expanded} onOpenChange={setExpanded}>
-      <Collapsible.Trigger className='flex items-center w-full h-8 p-1.5 text-sm truncate rounded-md hover:bg-gray-600/10 dark:hover:bg-gray-400/10'>
-        <div className='w-5 flex justify-center items-center'>{expanded ? expandIcon : collapseIcon}</div>
-        {icon && <div className='mr-1'>{icon}</div>}
-        <div className='truncate'>{label}</div>
-        {endIcon && <div className='ml-auto'>{endIcon}</div>}
+      <Collapsible.Trigger className="flex items-center w-full h-8 p-1.5 text-sm truncate rounded-md hover:bg-gray-600/10 dark:hover:bg-gray-400/10">
+        <div className="w-5 flex justify-center items-center">
+          {expanded ? expandIcon : collapseIcon}
+        </div>
+        {icon && <div className="mr-1">{icon}</div>}
+        <div className="truncate">{label}</div>
+        {endIcon && <div className="ml-auto">{endIcon}</div>}
       </Collapsible.Trigger>
-      <Collapsible.Content className={twMerge(
-        'ml-3',
-        styles.collapsibleContent
-        // 'transition-[height] data-[state=closed]:h-0 h-[var(--radix-collapsible-content-height)]'
-      )}>
+      <Collapsible.Content
+        className={twMerge(
+          "ml-3",
+          styles.collapsibleContent,
+          // 'transition-[height] data-[state=closed]:h-0 h-[var(--radix-collapsible-content-height)]'
+        )}
+      >
         {children}
       </Collapsible.Content>
     </Collapsible.Root>
   ) : (
-    <div className='flex items-center h-8 p-1.5 pl-[1.625rem] cursor-pointer text-sm truncate rounded-md hover:bg-gray-600/10 dark:hover:bg-gray-400/10' tabIndex={0}>
-      {icon && <div className='mr-1'>{icon}</div>}
-      <div className='truncate'>{label}</div>
-      {endIcon && <div className='ml-auto'>{endIcon}</div>}
+    <div
+      className="flex items-center h-8 p-1.5 pl-[1.625rem] cursor-pointer text-sm truncate rounded-md hover:bg-gray-600/10 dark:hover:bg-gray-400/10"
+    >
+      {icon && <div className="mr-1">{icon}</div>}
+      <div className="truncate">{label}</div>
+      {endIcon && <div className="ml-auto">{endIcon}</div>}
     </div>
-  )
+  );
 }
 
-
-export interface TreeViewProps extends React.PropsWithChildren<React.ComponentPropsWithoutRef<'div'>> {
+export interface TreeViewProps
+  extends React.PropsWithChildren<React.ComponentPropsWithoutRef<"div">> {
   icon?: React.ReactNode;
   expandIcon?: React.ReactNode;
   collapseIcon?: React.ReactNode;
@@ -82,24 +88,14 @@ function TreeView({
     expandIcon,
     collapseIcon,
     endIcon,
-  }
+  };
   return (
     <ConfigContext.Provider value={config}>
-      <div {...rest}>
-        {children}
-      </div>
+      <div {...rest}>{children}</div>
     </ConfigContext.Provider>
-  )
+  );
 }
 
-export default Object.assign(TreeView, { 
+export default Object.assign(TreeView, {
   Item: TreeViewItem,
 });
-
-
-
-
-
-
-
-

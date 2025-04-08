@@ -54,7 +54,7 @@ async function validateTitle(title) {
 
 
 function exit() {
-  console.log(chalk.red(`Creating procedure canceled!`));
+  console.log(chalk.red('Creating procedure canceled!'));
   process.exit();
 }
 

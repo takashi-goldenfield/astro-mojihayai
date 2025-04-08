@@ -1,0 +1,39 @@
+{
+    "name": "Jaguar",
+    "description": "The Jaguar, a spirit of the rainforest, embodies the mysteries of the night and the secrets of the earth.",
+    "image": "https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/003.jaguar.webp",
+    "external_url": "https://yourwebsite.com/collection",
+    "artist": "Mystic Artist",
+    "collection": "Mystic Creatures Collection",
+    "conservation_status": "Near Threatened",
+    "attributes": [
+        {
+            "trait_type": "Species",
+            "value": "Panthera onca"
+        },
+        {
+            "trait_type": "Habitat",
+            "value": "Rainforests, Swamps"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Uncommon"
+        },
+        {
+            "trait_type": "Abilities",
+            "value": "Stealth, Climbing, Strong Bite"
+        },
+        {
+            "trait_type": "Diet",
+            "value": "Carnivore"
+        },
+        {
+            "trait_type": "Lifespan",
+            "value": "12-15 years"
+        },
+        {
+            "trait_type": "Speed",
+            "value": "50 mph"
+        }
+    ]
+}

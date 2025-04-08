@@ -1,45 +1,45 @@
-import { useCallback } from 'react';
-import { createPortal } from 'react-dom';
-import { useDocSearchKeyboardEvents, DocSearchModal } from '@docsearch/react';
-import '@docsearch/css';
-import './Search.css';
-import { useAtom } from 'jotai';
-import { searchModelOpen as searchModelOpenAtom } from '@/store/atoms';
+import { useCallback, useRef } from "react";
+import { createPortal } from "react-dom";
+import { useDocSearchKeyboardEvents, DocSearchModal } from "@docsearch/react";
+import "@docsearch/css";
+import "./Search.css";
+import { useAtom } from "jotai";
+import { searchModelOpen as searchModelOpenAtom } from "@/store/atoms";
 
 const defaultTranslations = {
   searchBox: {
-    resetButtonTitle: '清空输入',
-    resetButtonAriaLabel: '清空输入',
-    cancelButtonText: '取消',
-    cancelButtonAriaLabel: '取消',
+    resetButtonTitle: "Clear Input",
+    resetButtonAriaLabel: "Clear Input",
+    cancelButtonText: "Cancel",
+    cancelButtonAriaLabel: "Cancel",
   },
   startScreen: {
-    recentSearchesTitle: '最近搜索',
-    noRecentSearchesText: '没有最近搜索',
-    saveRecentSearchButtonTitle: '添加收藏',
-    removeRecentSearchButtonTitle: '删除记录',
-    favoriteSearchesTitle: '收藏',
-    removeFavoriteSearchButtonTitle: '删除收藏',
+    recentSearchesTitle: "Recent Searches",
+    noRecentSearchesText: "No recent searches",
+    saveRecentSearchButtonTitle: "Add to favorites",
+    removeRecentSearchButtonTitle: "Deleting Records",
+    favoriteSearchesTitle: "Keep",
+    removeFavoriteSearchButtonTitle: "Delete favorites",
   },
   errorScreen: {
-    titleText: '无法获取搜索结果',
-    helpText: '请检查网络连接是否有效',
+    titleText: "Unable to obtain search results",
+    helpText: "Please check if the network connection is valid",
   },
   footer: {
-    selectText: '选中',
-    selectKeyAriaLabel: 'Enter key',
-    navigateText: '移动光标',
-    navigateUpKeyAriaLabel: 'Arrow up',
-    navigateDownKeyAriaLabel: 'Arrow down',
-    closeText: '退出',
-    closeKeyAriaLabel: 'Escape key',
-    searchByText: 'Search by',
+    selectText: "Select",
+    selectKeyAriaLabel: "Enter key",
+    navigateText: "Move the cursor",
+    navigateUpKeyAriaLabel: "Arrow up",
+    navigateDownKeyAriaLabel: "Arrow down",
+    closeText: "Quit",
+    closeKeyAriaLabel: "Escape key",
+    searchByText: "Search by",
   },
   noResultsScreen: {
-    noResultsText: '未找到结果: ',
-    suggestedQueryText: '请尝试搜索',
-    reportMissingResultsText: '确定应该有搜索结果?',
-    reportMissingResultsLinkText: '请给我们反馈.',
+    noResultsText: "No results found: ",
+    suggestedQueryText: "Please try searching",
+    reportMissingResultsText: "Make sure there should be search results?",
+    reportMissingResultsLinkText: "Please give us feedback.",
   },
 };
 
@@ -49,42 +49,41 @@ export interface SearchProps {
   indexName: string;
 }
 
-export default function Search({
-  appId,
-  apiKey,
-  indexName,
-}: SearchProps) {
+export default function Search({ appId, apiKey, indexName }: SearchProps) {
   const [searchModalOpen, setSearchModalOpen] = useAtom(searchModelOpenAtom);
 
   const onOpen = useCallback(() => {
     setSearchModalOpen(true);
-  }, []);
+  }, [setSearchModalOpen]);
 
   const onClose = useCallback(() => {
     setSearchModalOpen(false);
-  }, []);
+  }, [setSearchModalOpen]);
+
+  const searchButtonRef = useRef<HTMLButtonElement | null>(null);
 
   useDocSearchKeyboardEvents({
     isOpen: searchModalOpen,
     onOpen,
     onClose,
+    searchButtonRef,
   });
-  
+
   return (
     <>
-      {searchModalOpen && createPortal(
-        <DocSearchModal
-          appId={appId}
-          apiKey={apiKey}
-          indexName={indexName}
-          placeholder='请输入搜索文本...'
-          translations={defaultTranslations}
-          initialScrollY={window.scrollY}
-          onClose={onClose}
-        />,
-        document.body,
-      )}
+      {searchModalOpen &&
+        createPortal(
+          <DocSearchModal
+            appId={appId}
+            apiKey={apiKey}
+            indexName={indexName}
+            placeholder="Please enter the search text..."
+            translations={defaultTranslations}
+            initialScrollY={window.scrollY}
+            onClose={onClose}
+          />,
+          document.body
+        )}
     </>
-  )
+  );
 }
-

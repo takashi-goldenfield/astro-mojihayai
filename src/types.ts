@@ -1,4 +1,4 @@
-import type { ImageMetadata, MarkdownHeading, MarkdownInstance } from 'astro';
+import type { ImageMetadata, MarkdownHeading, MarkdownInstance } from "astro";
 export interface Tag {
   slug: string;
   label: string;
@@ -15,8 +15,23 @@ export interface Category {
 
 export interface Author {
   name: string;
-  avatar?: string | ImageMetadata | Promise<{default: ImageMetadata}>;
+  avatar?: string | ImageMetadata | Promise<{ default: ImageMetadata }>;
   description?: string;
+  twitter?: string;
+  github?: string;
+  linkedin?: string;
+}
+
+export interface Card {
+  tokenId: string;
+  name: string;
+  description: string;
+  image: string;
+  attributes: Record<string, string>;
+  external_url: string;
+  artist: string;
+  collection: string;
+  conservation_status: string;
 }
 
 export interface Post {
@@ -29,19 +44,16 @@ export interface Post {
   category: Category;
   tags: Tag[];
   author: Author;
-
   excerpt?: string;
-  image?: string | ImageMetadata | Promise<{default: ImageMetadata}>;
-  permalink?: string;
+  image?: string | ImageMetadata | Promise<{ default: ImageMetadata }>;
+  permalink: string;
   readingTime?: number;
   wordCount?: number;
-  cardVariant?: 'blur' | 'material' | 'full' | 'plain';
-
+  cardVariant?: "blur" | "material" | "full" | "plain";
   raw: string;
   headings: MarkdownHeading[];
-  Content: MarkdownInstance<any>['Content'];
+  Content: MarkdownInstance<Record<string, unknown>>["Content"];
 }
-
 
 export interface Paginator {
   total: number;
@@ -53,104 +65,122 @@ export interface Paginator {
   pageUrls: string[];
 }
 
-
 export interface BasePage {
   title: string;
   description?: string;
-  image?: string | ImageMetadata | Promise<{default: ImageMetadata}>;
+  image?: string | ImageMetadata | Promise<{ default: ImageMetadata }>;
+  author: string;
   type?: never;
 }
 
-
-export interface IndexPage extends Omit<BasePage, 'type'> {
-  type: 'index';
-  posts: Omit<Post, 'Content'>[];
+export interface IndexPage extends Omit<BasePage, "type"> {
+  type: "index";
+  posts: Omit<Post, "Content">[];
   paginator?: Paginator;
 }
 
-export interface PostPage extends Omit<BasePage, 'type'> {
-  type: 'post';
-  post: Omit<Post, 'Content'>;
-  prev?: Omit<Post, 'Content'>;
-  next?: Omit<Post, 'Content'>;
+export interface PostPage extends Omit<BasePage, "type"> {
+  type: "post";
+  post: Omit<Post, "Content">;
+  prev?: Omit<Post, "Content">;
+  next?: Omit<Post, "Content">;
 }
 
-export interface CategoriesPage extends Omit<BasePage, 'type'> {
-  type: 'categories';
+export interface CategoriesPage extends Omit<BasePage, "type"> {
+  type: "categories";
   categories: Category[];
 }
 
-export interface TagsPage extends Omit<BasePage, 'type'> {
-  type: 'tags';
+export interface TagsPage extends Omit<BasePage, "type"> {
+  type: "tags";
   tags: Tag[];
 }
 
-export interface PostsPage extends Omit<BasePage, 'type'> {
-  type: 'posts';
-  posts: Omit<Post, 'Content'>[];
+export interface PostsPage extends Omit<BasePage, "type"> {
+  type: "posts";
+  posts: Omit<Post, "Content">[];
   paginator?: Paginator;
 }
 
-export interface ArchivePage extends Omit<BasePage, 'type'> {
-  type: 'archive';
-  posts: Omit<Post, 'Content'>[];
+export interface ArchivePage extends Omit<BasePage, "type"> {
+  type: "archive";
+  posts: Omit<Post, "Content">[];
 }
 
-export type Page = IndexPage | PostPage | CategoriesPage | TagsPage | PostsPage | ArchivePage | BasePage;
+export type Page =
+  | IndexPage
+  | PostPage
+  | CategoriesPage
+  | TagsPage
+  | PostsPage
+  | ArchivePage
+  | BasePage;
 
-
-
-import type { NavbarConfig as NavbarPartialConfig } from './partials/Navbar';
-import type { HeroConfig as HeroPartialConfig } from './partials/Hero';
-import type { CategoryTreeConfig, ComponentConfig, ProfileConfig, SidebarConfig as SidebarPartialConfig, TagCloudConfig } from './partials/Sidebar';
-import type { PaginationConfig as PaginationPartialConfig } from './partials/Pagination';
-import type { CommentConfig as CommentPartialConfig } from './partials/Comment';
-import type { FooterConfig as FooterPartialConfig } from './partials/Footer';
-
+import type { NavbarConfig as NavbarPartialConfig } from "./partials/Navbar";
+import type { HeroConfig as HeroPartialConfig } from "./partials/Hero";
+import type {
+  CategoryTreeConfig,
+  ComponentConfig,
+  ProfileConfig,
+  SidebarConfig as SidebarPartialConfig,
+  TagCloudConfig,
+} from "./partials/Sidebar";
+import type { PaginationConfig as PaginationPartialConfig } from "./partials/Pagination";
+import type { CommentConfig as CommentPartialConfig } from "./partials/Comment";
+import type { FooterConfig as FooterPartialConfig } from "./partials/Footer";
 
 interface Sortable {
-  sortBy?: 'count' | 'label';
-  order?: 'asc' | 'desc';
+  sortBy?: "count" | "label";
+  order?: "asc" | "desc";
   limit?: number;
 }
 
 export type NavbarConfig = NavbarPartialConfig;
-export type HeroConfig = Omit<HeroPartialConfig, 'info'>;
-
+export type HeroConfig = Omit<HeroPartialConfig, "info">;
 
 export type ComponentWidgetConfig = ComponentConfig;
 export type ProfileWidgetConfig = ProfileConfig;
-export type TagCloudWidgetConfig = Omit<TagCloudConfig, 'tags'> & Sortable;
-export type CategoryTreeWidgetConfig = Omit<CategoryTreeConfig, 'categories'> & Sortable;
+export type TagCloudWidgetConfig = Omit<TagCloudConfig, "tags"> & Sortable;
+export type CategoryTreeWidgetConfig = Omit<CategoryTreeConfig, "categories"> &
+  Sortable;
 
-export type WidgetConfig = ComponentWidgetConfig | ProfileWidgetConfig | TagCloudWidgetConfig | CategoryTreeWidgetConfig;
+export type WidgetConfig =
+  | ComponentWidgetConfig
+  | ProfileWidgetConfig
+  | TagCloudWidgetConfig
+  | CategoryTreeWidgetConfig;
 
-export type SidebarConfig = Omit<SidebarPartialConfig, 'widgets'> & {
+export type SidebarConfig = Omit<SidebarPartialConfig, "widgets"> & {
   widgets?: WidgetConfig[];
 };
 
 export type PaginationConfig = PaginationPartialConfig & {
   pageSize?: number;
-}
+  itemLimit?: number;
+};
 export type CommentConfig = CommentPartialConfig;
 export type FooterConfig = FooterPartialConfig;
 
 export type ArticleConfig = {
-  outdateTip?: false | {
-    outdateLimit?: number;
-  };
-  license?: false | {
-    licenseName: string;
-    licenseUrl?: string;
-    infoText?: string;
-  }
+  outdateTip?:
+    | false
+    | {
+        outdateLimit?: number;
+      };
+  license?:
+    | false
+    | {
+        licenseName: string;
+        licenseUrl?: string;
+        infoText?: string;
+      };
 };
 
 export type AlgoliaConfig = {
   appId: string;
   apiKey: string;
   indexName: string;
-}
+};
 
 export interface Config {
   title: string;

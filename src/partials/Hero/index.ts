@@ -1,2 +1,2 @@
-export { default } from './Hero.astro';
-export * from './Hero.astro';
+export { default } from "./Hero.astro";
+export * from "./Hero.astro";

@@ -1,4 +1,4 @@
-# 银河渡舟's Blog
+# Takashi's Theme Preview
 
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg)](https://astro.build)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f603c52a-adbe-413d-a035-df609eb41392/deploy-status)](https://app.netlify.com/sites/wider/deploys)
@@ -7,9 +7,9 @@ This is the source code for my blog, which is built with [Astro](https://astro.b
 
 ## Preview
 
-![Theme Preview](https://github.com/izmttk/astro-mecure/assets/26360968/4c79fba0-390d-48f6-a887-bcbc39c5e462)
+![Theme Preview](https://github.com/takashi-goldenfield/astro-mojihayai/assets/26360968/4c79fba0-390d-48f6-a887-bcbc39c5e462)
 
-- 银河渡舟的小站: <https://suborbit.net>
+- Live demo here: <https://takashi-goldenfield.vercel.app/>
 
 ## Features
 
@@ -32,8 +32,8 @@ This is the source code for my blog, which is built with [Astro](https://astro.b
 ### 1. Clone the repo
 
 ```bash
-git clone https://https://github.com/izmttk/astro-mecure.git
-cd astro-mecure
+git clone https://https://github.com/takashi-goldenfield/astro-mojihayai.git
+cd astro-mojihayai
 ```
 
 ### 2. Install dependencies
@@ -68,14 +68,14 @@ Otherwise, you will get a CORS error. This is necessary for giscus custom theme 
 
 All commands are run from the root of the project, from a terminal:
 
-| Command                    | Action                                             |
-| :------------------------- | :------------------------------------------------- |
-| `npm install`              | Installs dependencies                              |
-| `npm run dev`              | Starts local dev server                            |
-| `npm run build`            | Build your production site to `/dist/`             |
-| `npm run preview`          | Preview your build locally, before deploying       |
-| `npm run create-post`      | Create a new post in `/src/content/blog/`          |
-| `npm run create-component` | Create a new component in `/src/components/`       |
+| Command                    | Action                                       |
+| :------------------------- | :------------------------------------------- |
+| `npm install`              | Installs dependencies                        |
+| `npm run dev`              | Starts local dev server                      |
+| `npm run build`            | Build your production site to `/dist/`       |
+| `npm run preview`          | Preview your build locally, before deploying |
+| `npm run create-post`      | Create a new post in `/src/content/blog/`    |
+| `npm run create-component` | Create a new component in `/src/components/` |
 
 ## Tech Stack
 
@@ -156,63 +156,63 @@ cardVariant: blur
 ```
 
 - `title` **required**
-  
+
   Title of the post.
 
 - `slug`
-  
+
   slug of the post used in the url.
 
 - `date`
-  
+
   Date of the post. If not provided, it will use the first git commit date of the post file.
-  
+
   You can use a relaxed format like `2022-01-01`, `2022-01-01 08:00:00`, or ISO 8601 format. e.g. `2022-01-01T08:00:00Z`.
 
 - `updateDate`
-  
+
   Date of the last update. If not provided, it will use the last git commit date of the post file.
 
 - `author`
-  
+
   Author id of the post. The author should be defined in `src/content/authors/` previously. If author id can't be found, `config.author` will be used as the default author name.
 
   Authors in `src/content/authors/` should be defined in `json` format. The file name is the corresponding author id.
-  
+
   ```json
   // src/content/authors/john.json
   {
     "name": "John",
-    "description": "This is a bio of John Doe.",
+    "description": "This is a bio of John Doe."
   }
   ```
 
   Default value is `default`. You can create `default.json` as the default author.
 
 - `description`
-  
+
   Description of the post.
 
 - `image`
-  
+
   Cover image of the post. Use a relative file path to the markdown file. Any path that can't be resolved will be reserved as is.
 
 - `tags`
-  
+
   Tags of the post. Tags is a set without hierarchical structure. **One post can have multiple tags.** For example, `[Astro, Blog, Markdown]` means the post is tagged with `Astro`, `Blog`, and `Markdown`.
 
 - `category`
-  
+
   Category of the post. Categories is a tree structure. **One post must have only one category.** For example, `[Web Development, Frontend, Astro]` means the post is in the `Web Development/Frontend/Astro` category. If not provided, the post will be in the `Uncategorized` category.
 
 - `draft`
-  
+
   Whether the post is a draft. default is `false`. Any file or folder starts with `_` will be ignored in astro's content collection.
 
 - `cardVariant`
-  
+
   Card style of the post shown in the home page. It can be `blur`, `material`, `full`, or `plain`. default is `blur`.
-  
+
   Still working in progress.
 
 ## Configuration
@@ -221,19 +221,35 @@ cardVariant: blur
 
 ```ts
 export default {
-  title: 'My Blog',
-  description: 'This is my blog.',
-  author: 'John',
-  favicon: '/favicon.ico',
-  navbar: { /* ... */ },
-  hero: { /* ... */ },
-  sidebar: { /* ... */ },
-  pagination: { /* ... */ },
-  article: { /* ... */ },
-  comment: { /* ... */ },
-  footer: { /* ... */ },
-  algolia: { /* ... */ }
-}
+  title: "My Blog",
+  description: "This is my blog.",
+  author: "John",
+  favicon: "/favicon.ico",
+  navbar: {
+    /* ... */
+  },
+  hero: {
+    /* ... */
+  },
+  sidebar: {
+    /* ... */
+  },
+  pagination: {
+    /* ... */
+  },
+  article: {
+    /* ... */
+  },
+  comment: {
+    /* ... */
+  },
+  footer: {
+    /* ... */
+  },
+  algolia: {
+    /* ... */
+  },
+};
 ```
 
 more details in [config.ts](./src/config.ts)
@@ -263,12 +279,12 @@ const config = {
 Some fields are url strings which can be clicked to navigate to the target page. But if you want to set an internal link, you can use the `url` utility function to generate the url. It will join the base url of the site and the provided path.
 
 ```ts
-import { url } from '@/utils/url';
+import { url } from "@/utils/url";
 
 const config = {
   // internal link: /base-path/your-path
-  link: url('/your-path'),
-}
+  link: url("/your-path"),
+};
 ```
 
 #### Icon
@@ -322,14 +338,14 @@ Brand logo of the site. It will be shown at the left side of the navbar.
 To customize the logo, you can provide an astro component as the logo. For example:
 
 ```ts
-import LogoWithAnimation from '@/custom/NavLogo.astro';
+import LogoWithAnimation from "@/custom/NavLogo.astro";
 const config = {
   navbar: {
     logo: LogoWithAnimation,
     // or you can use dynamic import
     // logo: import('@/custom/NavLogo.astro'),
-  }
-}
+  },
+};
 ```
 
 #### navbar.menu
@@ -358,7 +374,7 @@ interface MenuSubItemConfig {
 - `label`
 
   **Type**: `string`
-  
+
   Label of the menu item.
 
 - `url`
@@ -448,14 +464,14 @@ Title in hero section. Title will be only displayed in homepage. If not provided
 To customize the title, you can provide an astro component as the title. For example:
 
 ```ts
-import LogoWithAnimation from '@/custom/Logo.astro';
+import LogoWithAnimation from "@/custom/Logo.astro";
 const config = {
   hero: {
     title: LogoWithAnimation,
     // or you can use dynamic import
     // title: import('@/custom/Logo.astro'),
-  }
-}
+  },
+};
 ```
 
 ### Sidebar Options
@@ -474,7 +490,7 @@ Each widget has 3 public properties: `name`, `title`, and `show`.
 - `name`
 
   **Type**: `'profile' | 'tag-cloud' | 'category-tree' | 'component'`
-  
+
   Name of the widget.
 
 - `title`
@@ -593,24 +609,24 @@ Each widget has 3 public properties: `name`, `title`, and `show`.
 - `component`
 
   **Type**: `AstroComponentFactory`
-  
+
   You can provide an astro component to the widget as a totally custom widget. For example:
 
   ```ts
-  import Greeting from '@/components/Greeting.astro';
+  import Greeting from "@/components/Greeting.astro";
   const config = {
     widgets: [
       {
-        name: 'component',
-        component: Greeting 
+        name: "component",
+        component: Greeting,
       },
       {
         // or you can use dynamic import
-        name: 'component',
-        component: import('@/components/Greeting.astro')
-      }
-    ]
-  }
+        name: "component",
+        component: import("@/components/Greeting.astro"),
+      },
+    ],
+  };
   ```
 
 ### Pagination Options
@@ -743,7 +759,7 @@ interface FooterLink {
 - `label`
 
   **Type**: `string`
-  
+
   Label of the link.
 
 - `url`

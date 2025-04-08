@@ -10,32 +10,31 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import { visit } from 'unist-util-visit';
-import type { Code } from 'mdast';
-import type { Node } from 'unist';
-import type { RemarkPlugin } from '@astrojs/markdown-remark';
+import { visit } from "unist-util-visit";
+import type { Code } from "mdast";
+import type { Node } from "unist";
+import type { RemarkPlugin } from "@astrojs/markdown-remark";
 
 export interface MermaidCodeBlock extends Node {
-  type: 'mermaidCodeBlock',
-};
+  type: "mermaidCodeBlock";
+}
 
 // Add nodes to tree.
-declare module 'mdast' {
+declare module "mdast" {
   // eslint-disable-next-line @typescript-eslint/consistent-type-definitions
   interface BlockContentMap {
-    mermaidCodeBlock: MermaidCodeBlock
+    mermaidCodeBlock: MermaidCodeBlock;
   }
 }
 
 const remarkMermaid: RemarkPlugin = () => {
-
   return (root) => {
-    visit(root, 'code', (node: Code, index, parent) => {
-      if (node.lang === 'mermaid' && parent !== null && index !== null) {
+    visit(root, "code", (node: Code, index, parent) => {
+      if (node.lang === "mermaid" && parent !== null && index !== null) {
         parent.children.splice(index, 1, {
-          type: 'mermaidCodeBlock',
+          type: "mermaidCodeBlock",
           data: {
-            hName: 'mermaid',
+            hName: "mermaid",
             hProperties: {
               value: node.value,
             },
@@ -44,6 +43,6 @@ const remarkMermaid: RemarkPlugin = () => {
       }
     });
   };
-}
+};
 
 export default remarkMermaid;

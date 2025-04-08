@@ -1,0 +1,52 @@
+---
+name: Eagle
+description: The Eagle, a sovereign of the skies, soars with the winds and sees the
+  world with the eyes of the sun.
+image: 023.eagle.webp
+art: 023_eagle.webp
+external_url: https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/023.eagle.webp
+artist: Mystic Artist
+collection: Mystic Creatures Collection
+conservation_status: Least Concern
+attributes:
+- trait_type: Species
+  value: Accipitridae
+- trait_type: Habitat
+  value: Mountains, Forests
+- trait_type: Rarity
+  value: Least Concern
+- trait_type: Abilities
+  value: Flying, Sharp Vision, Hunting
+- trait_type: Diet
+  value: Carnivore
+- trait_type: Lifespan
+  value: 20-30 years
+- trait_type: Speed
+  value: 99 mph
+
+---
+
+# Eagle
+
+**Description**: The Eagle, a sovereign of the skies, soars with the winds and sees the world with the eyes of the sun.
+
+**Image**: [023.eagle.webp](./023.eagle.webp) if image_filename else "N/A"
+
+**Art**: [023_eagle.webp](./023_eagle.webp) if art_filename else "N/A"
+
+**External URL**: [https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/023.eagle.webp](https://ipfs.io/ipfs/bafybeid4lexivwa6qb3cyt4cxirwsniwcfxzphnqczyuhq3ek5j7rvewxa/023.eagle.webp)
+
+**Artist**: Mystic Artist
+
+**Collection**: Mystic Creatures Collection
+
+**Conservation Status**: Least Concern
+
+## Attributes
+- **Species**: Accipitridae
+- **Habitat**: Mountains, Forests
+- **Rarity**: Least Concern
+- **Abilities**: Flying, Sharp Vision, Hunting
+- **Diet**: Carnivore
+- **Lifespan**: 20-30 years
+- **Speed**: 99 mph

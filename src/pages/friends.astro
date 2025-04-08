@@ -1,37 +1,81 @@
 ---
-import PageLayout from '@/layouts/PageLayout.astro';
-import type { Page } from '@/types';
-import Friend from '@/components/Friend';
-import { getCollection } from 'astro:content';
-import { FRIENDS_COLLECTION_NAME } from '@/constants';
+import PageLayout from "@/layouts/PageLayout.astro";
+import type { Page } from "@/types";
+import Friend from "@/components/Friend";
+import { getCollection } from "astro:content";
+import { FRIENDS_COLLECTION_NAME } from "@/constants";
+import nftMetadata from "@/assets/nft_metadata.json"; // Import the JSON file
+import Pagination from "@/partials/Pagination"; // Import the Pagination component
+import config from "@/config";
+
 const page: Page = {
-  title: '友情链接',
-  description: '「花径不曾缘客扫，蓬门今始为君开」',
-  image: import('src/assets/friends-bg.jpg'),
-}
+  title: "Friendly Links",
+  description:
+    "The flower path has never been swept for guests, the door is now open for you",
+  image: import("src/assets/friends-bg.webp"),
+  author: "default", // Add the author property
+};
+
 const friendEntries = await getCollection(FRIENDS_COLLECTION_NAME);
+const paginationConfig = config.pagination;
+// Get the current URL and extract the query parameters
+const currentUrl = new URL(Astro.request.url);
+const nftCurrentPage = Number(currentUrl.searchParams.get("nftPage")) || 1;
+
+// Pagination logic for NFT metadata
+const ITEMS_PER_PAGE = 128;
+const nftTotalItems = nftMetadata.length;
+const nftTotalPages = Math.ceil(nftTotalItems / ITEMS_PER_PAGE);
+const nftStartIndex = (nftCurrentPage - 1) * ITEMS_PER_PAGE;
+const nftEndIndex = nftStartIndex + ITEMS_PER_PAGE;
+const paginatedNftMetadata = nftMetadata.slice(nftStartIndex, nftEndIndex);
+
+const nftPageUrls = Array.from(
+  { length: nftTotalPages },
+  (_, i) => `?nftPage=${i + 1}`
+);
 ---
-<PageLayout 
-  page={page} 
+
+<PageLayout
+  page={page}
   hasFooter={true}
   hasHero={true}
   hasNavbar={true}
-  hasComment={true} 
+  hasComment={true}
   hasSidebar={false}
 >
   <section class="mb-6 not-prose">
-    <h2 class="text-xl font-bold mb-3">我的朋友</h2>
+    <h2 class="text-xl font-bold mb-3 text-center">My friends</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-      {friendEntries.map(entry => (
-        <Friend {...entry.data} />
-      ))}
+      {friendEntries.map((entry: any) => <Friend {...entry.data} />)}
     </div>
   </section>
-  <section class="prose dark:prose-invert dark:prose-dark plate-bg border-highlight p-4 md:p-8 rounded-xl">
-    <p>虽然小站的建立不以传播为目的，但是仍然欢迎各位志同道合的朋友，如果你想要申请友链，这里有两种途径：</p>
-    <ol>
-      <li>在本文下方留言，留下你的名称、网址、描述、头像链接、主题色、字体色；</li>
-      <li>在本站 <a href="https://github.com/izmttk/astro-mecure/pulls" target="_blank">github仓库</a> 提交一个 PR，在<code>\src\content\friends\</code>目录下添加一个<code>&ltyour-name&gt</your-name>.json</code>，参考其他人的文件内容即可；</li>
-    </ol>
+  <section class="mb-6 not-prose">
+    <h2 class="text-xl font-bold mb-3 text-center">NFT Metadata</h2>
+    <div class="grid grid-cols-8 gap-4">
+      {
+        paginatedNftMetadata.map((metadata) => (
+          <div class="p-4 border rounded-lg">
+            <h3 class="text-xs font-bold">{metadata.name}</h3>
+            <img
+              src={metadata.image}
+              alt={metadata.name}
+              class="w-full h-auto rounded-lg"
+            />
+          </div>
+        ))
+      }
+    </div>
+    {
+      paginationConfig && (
+        <Pagination
+          className="my-6 mx-auto max-w-fit"
+          current={nftCurrentPage}
+          total={nftTotalPages}
+          pageUrls={nftPageUrls}
+          config={paginationConfig}
+        />
+      )
+    }
   </section>
 </PageLayout>

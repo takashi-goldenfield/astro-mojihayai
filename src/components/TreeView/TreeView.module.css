@@ -1,10 +1,10 @@
 .collapsibleContent {
   overflow: hidden;
 }
-.collapsibleContent[data-state='open'] {
+.collapsibleContent[data-state="open"] {
   animation: expand 200ms ease-out;
 }
-.collapsibleContent[data-state='closed'] {
+.collapsibleContent[data-state="closed"] {
   animation: collapse 200ms ease-out;
 }
 

@@ -6,20 +6,20 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import {useEffect, useMemo, useState} from 'react';
-import useTheme from '@/hooks/useTheme';
-import type { MermaidConfig } from 'mermaid';
-import mermaid from 'mermaid';
+import { useEffect, useMemo, useState } from "react";
+import useTheme from "@/hooks/useTheme";
+import type { MermaidConfig } from "mermaid";
+import mermaid from "mermaid";
 
 export default function useMermaidSvg(
   txt: string,
   mermaidConfigParam?: MermaidConfig,
 ): string {
-  const {colorMode} = useTheme();
+  const { colorMode } = useTheme();
   const mermaidConfig = useMemo(() => {
     const defaultMermaidConfig: MermaidConfig = {
-      startOnLoad: false, 
-      theme: colorMode === 'dark' ? 'dark' : 'default',
+      startOnLoad: false,
+      theme: colorMode === "dark" ? "dark" : "default",
     };
     return mermaidConfigParam
       ? {
@@ -29,15 +29,15 @@ export default function useMermaidSvg(
       : defaultMermaidConfig;
   }, [mermaidConfigParam, colorMode]);
 
-  const [svg, setSvg] = useState('');
+  const [svg, setSvg] = useState("");
   useEffect(() => {
     mermaid.mermaidAPI.initialize(mermaidConfig);
 
     const mermaidId = `mermaid-svg-${Math.round(Math.random() * 10000000)}`;
-  
+
     mermaid.mermaidAPI.render(mermaidId, txt).then((result) => {
       setSvg(result.svg);
-    })
+    });
   }, [txt, mermaidConfig]);
   return svg;
 }
