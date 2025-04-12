@@ -158,7 +158,7 @@ const config: Config = {
       { label: "Posts", url: url("archive") },
       { label: "Authors", url: url("authors") },
       { label: "Friends", url: url("friends") },
-      { label: "Github", url: "https://github.com/takashi-goldenfield" },
+      { label: "Github", url: "https://github.com/takashi-goldenfield/" },
     ],
     declarations: [
       `Copyright © ${getYear(new Date())} Moji Express All Rights Reserved.`,
