@@ -113,7 +113,7 @@ const config: Config = {
       },
       {
         name: "component",
-        component: import("@/components/Custom/Recommend.astro"),
+        component: import("@/components/Customize/Recommend.astro"),
       },
     ],
   },
